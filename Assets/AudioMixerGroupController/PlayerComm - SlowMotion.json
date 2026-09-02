@@ -1,0 +1,46 @@
+{
+	"m_AudioMixer": { "m_Collection": "sharedassets0.assets", "m_PathID": 11037 },
+	"m_BypassEffects": false,
+	"m_Children": [
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11066 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11075 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11062 }
+	],
+	"m_CorrespondingSourceObject": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Effects": [
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 25 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 26 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 27 }
+	],
+	"m_GroupID": {
+		"m_Data_0_": 2624443881,
+		"m_Data_1_": 1156777961,
+		"m_Data_2_": 1768673177,
+		"m_Data_3_": 719192522
+	},
+	"m_HideFlags": 0,
+	"m_Mute": false,
+	"m_Name": "PlayerComm - SlowMotion",
+	"m_Pitch": {
+		"m_Data_0_": 3723631259,
+		"m_Data_1_": 1183890883,
+		"m_Data_2_": 3057105599,
+		"m_Data_3_": 181759
+	},
+	"m_PrefabAsset": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_PrefabInstance": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Send": {
+		"m_Data_0_": 0,
+		"m_Data_1_": 0,
+		"m_Data_2_": 0,
+		"m_Data_3_": 0
+	},
+	"m_Solo": false,
+	"m_UserColorIndex": 0,
+	"m_Volume": {
+		"m_Data_0_": 1560845130,
+		"m_Data_1_": 1278742830,
+		"m_Data_2_": 1490054802,
+		"m_Data_3_": 432605953
+	}
+}

@@ -1,0 +1,1440 @@
+{
+	"m_CompileInfo": {
+		"m_HasFixedFunctionShaders": false,
+		"m_HasSurfaceShaders": false,
+		"m_MeshComponentsFromSnippets": 0,
+		"m_Snippets": []
+	},
+	"m_CompileSmokeTestAfterImport": false,
+	"m_CompressedBlob": "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//////99AEcABJQFE4ZUBQeAAASEAA+cCFAfJpwIAABSA99JTlNUQU5DSU5HX09O7BAEEfacCB8FnAgU8AHmX3fkhSPkcfN8iCl9JhZUNwAX0JwIEOTKFwOcCB6wDAgNnAgfiQwIBB+QnAgEH5acCAQXn04VBF4SLwEBtAgONlNWX7oTMQCrq8QIH6zECFgXmzAABbgAHg7ECA+0AAkA1AgiMAfUCB/M1AgcGxXUCCYBAEAAEwS8AA/kCCF1YAAABBIQEJwKD/QIJRsS9AhUHgAACBLYBgNgAADMAwScAUUpAAAHIAAHzAMDzAUUCsAIBzAJFAbuFCUKAKgEAYAGA8AIFARcBgw8CQNkCRcMLAABTAAXAjAAKqYaMAAYALQIGg44ABcDOAAETAkTA5wFFwJsCQhMCRcDGAAETAkEXAAfAygABARMCQ8oAA0ETAkLKAAkDOIMAR6JuAAEVAkiBgncABM2sAESASQJATAACFABEzacBQggABsFIAAbQiAAFwYgABcQ8AEALAYXAQgAANAHDAwCBNAHAgwDCjgAD2wJCR8SbAkICDwCD2wJARsBbAkvlgdsCQMfCmwJABsKbAkfAWwJEB8BbAkQHwpsCVQfCmwJDBcBtAAMbAkI7AAMAAEfAWwJAAhMAAxsCQQcAAgkAQ9sCQUFzAIHhAAEbAkOXAQPbAkjFwKMDB8KpAwEGAnQAw9ECQQXAmwJDygADQRsCR8CbAkwHwNsCRQfA+ARRB8DRAkUBCgABEgGBDQGD1gJExsnWAkfA1gJAQ8IEhgvQglsCRnwAT5vji7gT5T/oLDgRVSIwv83ACocCWwJH7BsCawTxNAFAEwAH5hsCQQfpLgABB+qbAkEH6psCQQfqjASBBuzhAkfBYQJJBNkhAkf2YQJvATkDASQCR8FkAn///////UP/BIQD7gJNh8FuAkeD+gjARoQkAkBCgAP6CP//////////zEPUAgBD+gj//////////99D5wIAQ/oI////////////04PbAkBD+gj////////////cgt4LT9NVUzQR///////////QgFQCA/QR///////////jAGcCA/QR////////////10BbAkP0Ef///////////9aDzRvES8AAHxuCx8CfG4gAfAJeFpCdWZmZXItAAwsABNwCAAdEnwAQlJhcmXaGxkBPHECHgAP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HjEYGQ8zOYMvAAm8ZxAaECwYAQoAD7xn//////////////////////////////////+jD7AaAQ+8Z//////////////////////////YD+wTAQ+8Z///////////////////////////////////////////7Q/0IAEPvGf///////////////////////////////8dC+h/f01VTAAAGRu8Z//////////////////////////////////JDlMLD7lnAggnAAg5Ag5jGg51DQ+wZwoPNxQBAEsHCV8MBgYADwABCAjLDB53JwA2bWlu/QAPlTMDCj4GBwYBBJQABOwMBgUAD1YbBx8ANNA1AWwbL2QUeGj///////////////////////9lCu8ND4Zokw+cFwUPqgUKDk0vD+QUFA+3FMsP/NA0AbQUL0ohQGn//////////////////////////////8QfNEBp//////////8oDmEhDj1pD1E2MA40aQ9RNs4PuNFIAbAhL7cY/Gn/////////////////////////////Kg4aIA8Kav8SD7c6/0qQAAkAAAAAAAAA",
+	"m_CompressedLengths": [
+		[
+			4323
+		],
+		[
+			4224
+		]
+	],
+	"m_CorrespondingSourceObject": { "m_Collection": "sharedassets3.assets", "m_PathID": 0 },
+	"m_DecompressedLengths": [
+		[
+			46568
+		],
+		[
+			83912
+		]
+	],
+	"m_DefaultTextures": {},
+	"m_Dependencies": [],
+	"m_Errors": [],
+	"m_HideFlags": 0,
+	"m_Name": "KriptoFX/FPS_Pack/Decal",
+	"m_NonModifiableTextures": {},
+	"m_Offsets": [
+		[
+			0
+		],
+		[
+			4323
+		]
+	],
+	"m_ParsedForm": {
+		"m_CustomEditorForRenderPipelines": [],
+		"m_CustomEditorName": "FPS_UberDecalGUI",
+		"m_Dependencies": [],
+		"m_DisableNoSubshadersMessage": false,
+		"m_FallbackName": "",
+		"m_KeywordFlags": "AAAAAAAAAAAAAAAAAAAAAAAAAA==",
+		"m_KeywordNames": [
+			"STEREO_INSTANCING_ON",
+			"UNITY_SINGLE_PASS_STEREO",
+			"STEREO_MULTIVIEW_ON",
+			"STEREO_CUBEMAP_RENDER_ON",
+			"USE_QUAD_DECAL",
+			"USE_ALPHA_POW",
+			"USE_NOISE_DISTORTION",
+			"USE_CUTOUT",
+			"USE_CUTOUT_TEX",
+			"USE_CUTOUT_THRESHOLD",
+			"USE_WORLD_SPACE_UV",
+			"USE_FRAME_BLENDING",
+			"_BLENDMODE_ADD",
+			"_BLENDMODE_BLEND",
+			"_BLENDMODE_MUL",
+			"FOG_LINEAR",
+			"FOG_EXP",
+			"FOG_EXP2",
+			"INSTANCING_ON"
+		],
+		"m_Name": "KriptoFX/FPS_Pack/Decal",
+		"m_PropInfo": {
+			"m_Props": [
+				{
+					"m_Attributes": [
+						"Header(Main Settings)",
+						"Space"
+					],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 1,
+					"m_DefValue_1_": 1,
+					"m_DefValue_2_": 1,
+					"m_DefValue_3_": 1,
+					"m_Description": "Tint Color",
+					"m_Flags": 18,
+					"m_Name": "_TintColor",
+					"m_Type": 0
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "white",
+						"m_TexDim": 2
+					},
+					"m_DefValue_0_": 0,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Main Texture",
+					"m_Flags": 0,
+					"m_Name": "_MainTex",
+					"m_Type": 4
+				},
+				{
+					"m_Attributes": [
+						"Toggle(USE_ALPHA_POW)"
+					],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 0,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Use Alpha Pow",
+					"m_Flags": 0,
+					"m_Name": "_UseAlphaPow",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 1,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Alpha pow",
+					"m_Flags": 0,
+					"m_Name": "_AlphaPow",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [
+						"Space",
+						"Header(Light)",
+						"Space",
+						"Header(Noise Distortion)",
+						"Toggle(USE_NOISE_DISTORTION)"
+					],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 0,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Use Noise Distortion",
+					"m_Flags": 0,
+					"m_Name": "_UseNoiseDistortion",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "gray",
+						"m_TexDim": 2
+					},
+					"m_DefValue_0_": 0,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Noise Texture (RG)",
+					"m_Flags": 0,
+					"m_Name": "_NoiseTex",
+					"m_Type": 4
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 1,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Distort Speed",
+					"m_Flags": 0,
+					"m_Name": "_DistortSpeed",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 0.1,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Distort Scale",
+					"m_Flags": 0,
+					"m_Name": "_DistortScale",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [
+						"Space",
+						"Header(Cutout)",
+						"Toggle(USE_CUTOUT)"
+					],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 0,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Use Cutout",
+					"m_Flags": 0,
+					"m_Name": "_UseCutout",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 1,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 1,
+					"m_DefValue_3_": 0,
+					"m_Description": "Cutout",
+					"m_Flags": 2,
+					"m_Name": "_Cutout",
+					"m_Type": 3
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 1,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Alpha multiplier",
+					"m_Flags": 0,
+					"m_Name": "_CutoutAlphaMul",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [
+						"Toggle(USE_CUTOUT_TEX)"
+					],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 0,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Use Cutout Texture",
+					"m_Flags": 0,
+					"m_Name": "_UseCutoutTex",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "white",
+						"m_TexDim": 2
+					},
+					"m_DefValue_0_": 0,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Cutout Tex",
+					"m_Flags": 0,
+					"m_Name": "_CutoutTex",
+					"m_Type": 4
+				},
+				{
+					"m_Attributes": [
+						"Toggle(USE_CUTOUT_THRESHOLD)"
+					],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 0,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Use Cutout Threshold",
+					"m_Flags": 0,
+					"m_Name": "_UseCutoutThreshold",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 1,
+					"m_DefValue_1_": 1,
+					"m_DefValue_2_": 1,
+					"m_DefValue_3_": 1,
+					"m_Description": "Cutout Color",
+					"m_Flags": 16,
+					"m_Name": "_CutoutColor",
+					"m_Type": 0
+				},
+				{
+					"m_Attributes": [
+						"Space",
+						"Header(Rendering)",
+						"Toggle(USE_WORLD_SPACE_UV)"
+					],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 0,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Use World Space UV",
+					"m_Flags": 0,
+					"m_Name": "_UseWorldSpaceUV",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [
+						"Toggle(USE_FRAME_BLENDING)"
+					],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 0,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Use Frame Blending",
+					"m_Flags": 0,
+					"m_Name": "_UseFrameBlending",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [
+						"KeywordEnum(Add, Blend, Mul)"
+					],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 1,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "Blend Mode",
+					"m_Flags": 0,
+					"m_Name": "_BlendMode",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 5,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "SrcMode",
+					"m_Flags": 0,
+					"m_Name": "_SrcMode",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 10,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "DstMode",
+					"m_Flags": 0,
+					"m_Name": "_DstMode",
+					"m_Type": 2
+				},
+				{
+					"m_Attributes": [],
+					"m_DefTexture": {
+						"m_DefaultName": "",
+						"m_TexDim": 1
+					},
+					"m_DefValue_0_": 5,
+					"m_DefValue_1_": 0,
+					"m_DefValue_2_": 0,
+					"m_DefValue_3_": 0,
+					"m_Description": "_ZTest1",
+					"m_Flags": 0,
+					"m_Name": "_ZTest1",
+					"m_Type": 2
+				}
+			]
+		},
+		"m_SubShaders": [
+			{
+				"m_LOD": 0,
+				"m_PackageRequirements": {
+					"m_CombinedStatus": 0,
+					"m_Requirements": [],
+					"m_StatusMessage": ""
+				},
+				"m_Passes": [
+					{
+						"m_EditorDataHash": [
+							{
+								"m_Bytes__0": 21,
+								"m_Bytes__1": 16,
+								"m_Bytes__2": 187,
+								"m_Bytes__3": 100,
+								"m_Bytes__4": 251,
+								"m_Bytes__5": 237,
+								"m_Bytes__6": 153,
+								"m_Bytes__7": 137,
+								"m_Bytes__8": 149,
+								"m_Bytes__9": 64,
+								"m_Bytes_10": 157,
+								"m_Bytes_11": 73,
+								"m_Bytes_12": 208,
+								"m_Bytes_13": 9,
+								"m_Bytes_14": 78,
+								"m_Bytes_15": 36
+							},
+							{
+								"m_Bytes__0": 95,
+								"m_Bytes__1": 64,
+								"m_Bytes__2": 223,
+								"m_Bytes__3": 163,
+								"m_Bytes__4": 3,
+								"m_Bytes__5": 22,
+								"m_Bytes__6": 105,
+								"m_Bytes__7": 247,
+								"m_Bytes__8": 184,
+								"m_Bytes__9": 113,
+								"m_Bytes_10": 83,
+								"m_Bytes_11": 161,
+								"m_Bytes_12": 224,
+								"m_Bytes_13": 18,
+								"m_Bytes_14": 79,
+								"m_Bytes_15": 110
+							}
+						],
+						"m_HasInstancingVariant": true,
+						"m_HasProceduralInstancingVariant": false,
+						"m_Name": "",
+						"m_NameIndices": {
+							"$Globals": 0,
+							"_MainTex_ST": 1
+						},
+						"m_PackageRequirements": {
+							"m_CombinedStatus": 0,
+							"m_Requirements": [],
+							"m_StatusMessage": ""
+						},
+						"m_Platforms": "BA8=",
+						"m_ProgDomain": {
+							"m_CommonParameters": {
+								"m_BufferParams": [],
+								"m_ConstantBufferBindings": [],
+								"m_ConstantBuffers": [],
+								"m_MatrixParams": [],
+								"m_Samplers": [],
+								"m_TextureParams": [],
+								"m_UAVParams": [],
+								"m_VectorParams": []
+							},
+							"m_ParameterBlobIndices": [],
+							"m_PlayerSubPrograms": [],
+							"m_SerializedKeywordStateMask": [],
+							"m_SubPrograms": []
+						},
+						"m_ProgFragment": {
+							"m_CommonParameters": {
+								"m_BufferParams": [],
+								"m_ConstantBufferBindings": [
+									{
+										"m_ArraySize": 1,
+										"m_Index": 0,
+										"m_NameIndex": 0
+									}
+								],
+								"m_ConstantBuffers": [
+									{
+										"m_IsPartialCB": true,
+										"m_MatrixParams": [],
+										"m_NameIndex": 0,
+										"m_Size": 1504,
+										"m_StructParams": [],
+										"m_VectorParams": [
+											{
+												"m_ArraySize": 0,
+												"m_Dim": 4,
+												"m_NameIndex": 1,
+												"m_OffsetInConstantBuffer": 32,
+												"m_Type": 0
+											}
+										]
+									}
+								],
+								"m_MatrixParams": [],
+								"m_Samplers": [],
+								"m_TextureParams": [],
+								"m_UAVParams": [],
+								"m_VectorParams": []
+							},
+							"m_ParameterBlobIndices": [
+								[],
+								[],
+								[],
+								[
+									14,
+									15,
+									16,
+									17,
+									14,
+									15,
+									16,
+									17,
+									14,
+									15,
+									16,
+									17
+								]
+							],
+							"m_PlayerSubPrograms": [
+								[],
+								[],
+								[],
+								[
+									{
+										"m_BlobIndex": 18,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											12
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 19,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											4,
+											12
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 20,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											12,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 21,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											4,
+											12,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 22,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											13
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 23,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											4,
+											13
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 24,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											13,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 25,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											4,
+											13,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 26,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											14
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 27,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											4,
+											14
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 28,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											14,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 29,
+										"m_GpuProgramType": 17,
+										"m_KeywordIndices": [
+											4,
+											14,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									}
+								]
+							],
+							"m_SerializedKeywordStateMask": [
+								0,
+								1,
+								2,
+								3,
+								4,
+								5,
+								6,
+								7,
+								8,
+								9,
+								10,
+								11,
+								12,
+								13,
+								14,
+								15,
+								16,
+								17,
+								18
+							],
+							"m_SubPrograms": []
+						},
+						"m_ProgGeometry": {
+							"m_CommonParameters": {
+								"m_BufferParams": [],
+								"m_ConstantBufferBindings": [],
+								"m_ConstantBuffers": [],
+								"m_MatrixParams": [],
+								"m_Samplers": [],
+								"m_TextureParams": [],
+								"m_UAVParams": [],
+								"m_VectorParams": []
+							},
+							"m_ParameterBlobIndices": [],
+							"m_PlayerSubPrograms": [],
+							"m_SerializedKeywordStateMask": [],
+							"m_SubPrograms": []
+						},
+						"m_ProgHull": {
+							"m_CommonParameters": {
+								"m_BufferParams": [],
+								"m_ConstantBufferBindings": [],
+								"m_ConstantBuffers": [],
+								"m_MatrixParams": [],
+								"m_Samplers": [],
+								"m_TextureParams": [],
+								"m_UAVParams": [],
+								"m_VectorParams": []
+							},
+							"m_ParameterBlobIndices": [],
+							"m_PlayerSubPrograms": [],
+							"m_SerializedKeywordStateMask": [],
+							"m_SubPrograms": []
+						},
+						"m_ProgramMask": 6,
+						"m_ProgRayTracing": {
+							"m_CommonParameters": {
+								"m_BufferParams": [],
+								"m_ConstantBufferBindings": [],
+								"m_ConstantBuffers": [],
+								"m_MatrixParams": [],
+								"m_Samplers": [],
+								"m_TextureParams": [],
+								"m_UAVParams": [],
+								"m_VectorParams": []
+							},
+							"m_ParameterBlobIndices": [],
+							"m_PlayerSubPrograms": [],
+							"m_SerializedKeywordStateMask": [],
+							"m_SubPrograms": []
+						},
+						"m_ProgVertex": {
+							"m_CommonParameters": {
+								"m_BufferParams": [],
+								"m_ConstantBufferBindings": [
+									{
+										"m_ArraySize": 1,
+										"m_Index": 0,
+										"m_NameIndex": 0
+									}
+								],
+								"m_ConstantBuffers": [],
+								"m_MatrixParams": [],
+								"m_Samplers": [],
+								"m_TextureParams": [],
+								"m_UAVParams": [],
+								"m_VectorParams": []
+							},
+							"m_ParameterBlobIndices": [
+								[],
+								[],
+								[],
+								[
+									0,
+									0,
+									1,
+									1,
+									0,
+									0,
+									1,
+									1,
+									0,
+									0,
+									1,
+									1,
+									0,
+									1,
+									2,
+									3,
+									0,
+									1,
+									2,
+									3,
+									0,
+									1,
+									2,
+									3
+								]
+							],
+							"m_PlayerSubPrograms": [
+								[],
+								[],
+								[],
+								[
+									{
+										"m_BlobIndex": 2,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											12
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 3,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											4,
+											12
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 4,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											12,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 5,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											4,
+											12,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 6,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											13
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 7,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											4,
+											13
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 8,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											13,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 9,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											4,
+											13,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 10,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											14
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 11,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											4,
+											14
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 12,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											14,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 13,
+										"m_GpuProgramType": 15,
+										"m_KeywordIndices": [
+											4,
+											14,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 4,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											12
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 5,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											4,
+											12
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 6,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											12,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 7,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											4,
+											12,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 8,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											13
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 9,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											4,
+											13
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 10,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											13,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 11,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											4,
+											13,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 12,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											14
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 13,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											4,
+											14
+										],
+										"m_ShaderRequirements": 33
+									},
+									{
+										"m_BlobIndex": 14,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											14,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									},
+									{
+										"m_BlobIndex": 15,
+										"m_GpuProgramType": 6,
+										"m_KeywordIndices": [
+											4,
+											14,
+											18
+										],
+										"m_ShaderRequirements": 2081
+									}
+								]
+							],
+							"m_SerializedKeywordStateMask": [
+								0,
+								1,
+								2,
+								3,
+								4,
+								5,
+								6,
+								7,
+								8,
+								9,
+								10,
+								11,
+								12,
+								13,
+								14,
+								15,
+								16,
+								17,
+								18
+							],
+							"m_SubPrograms": []
+						},
+						"m_State": {
+							"m_AlphaToMask": {
+								"m_Name": "\u003cnoninit\u003e",
+								"m_Value": 0
+							},
+							"m_Conservative": {
+								"m_Name": "\u003cnoninit\u003e",
+								"m_Value": 0
+							},
+							"m_Culling": {
+								"m_Name": "\u003cnoninit\u003e",
+								"m_Value": 1
+							},
+							"m_FogColor": {
+								"m_Name": "unity_FogColor",
+								"m_W": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_X": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_Y": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_Z": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								}
+							},
+							"m_FogDensity": {
+								"m_Name": "unity_FogDensity",
+								"m_Value": 0
+							},
+							"m_FogEnd": {
+								"m_Name": "unity_FogEnd",
+								"m_Value": 0
+							},
+							"m_FogMode": -1,
+							"m_FogStart": {
+								"m_Name": "unity_FogStart",
+								"m_Value": 0
+							},
+							"m_GpuProgramID": 43191,
+							"m_Lighting": false,
+							"m_LOD": 0,
+							"m_Name": "",
+							"m_OffsetFactor": {
+								"m_Name": "\u003cnoninit\u003e",
+								"m_Value": 0
+							},
+							"m_OffsetUnits": {
+								"m_Name": "\u003cnoninit\u003e",
+								"m_Value": 0
+							},
+							"m_RtBlend0": {
+								"m_BlendOp": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_BlendOpAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_ColMask": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 15
+								},
+								"m_DestinationBlend": {
+									"m_Name": "_DstMode",
+									"m_Value": 0
+								},
+								"m_DestinationBlendAlpha": {
+									"m_Name": "_DstMode",
+									"m_Value": 0
+								},
+								"m_SourceBlend": {
+									"m_Name": "_SrcMode",
+									"m_Value": 0
+								},
+								"m_SourceBlendAlpha": {
+									"m_Name": "_SrcMode",
+									"m_Value": 0
+								}
+							},
+							"m_RtBlend1": {
+								"m_BlendOp": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_BlendOpAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_ColMask": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 15
+								},
+								"m_DestinationBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_DestinationBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_SourceBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								},
+								"m_SourceBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								}
+							},
+							"m_RtBlend2": {
+								"m_BlendOp": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_BlendOpAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_ColMask": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 15
+								},
+								"m_DestinationBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_DestinationBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_SourceBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								},
+								"m_SourceBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								}
+							},
+							"m_RtBlend3": {
+								"m_BlendOp": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_BlendOpAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_ColMask": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 15
+								},
+								"m_DestinationBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_DestinationBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_SourceBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								},
+								"m_SourceBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								}
+							},
+							"m_RtBlend4": {
+								"m_BlendOp": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_BlendOpAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_ColMask": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 15
+								},
+								"m_DestinationBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_DestinationBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_SourceBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								},
+								"m_SourceBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								}
+							},
+							"m_RtBlend5": {
+								"m_BlendOp": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_BlendOpAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_ColMask": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 15
+								},
+								"m_DestinationBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_DestinationBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_SourceBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								},
+								"m_SourceBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								}
+							},
+							"m_RtBlend6": {
+								"m_BlendOp": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_BlendOpAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_ColMask": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 15
+								},
+								"m_DestinationBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_DestinationBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_SourceBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								},
+								"m_SourceBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								}
+							},
+							"m_RtBlend7": {
+								"m_BlendOp": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_BlendOpAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_ColMask": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 15
+								},
+								"m_DestinationBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_DestinationBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_SourceBlend": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								},
+								"m_SourceBlendAlpha": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 1
+								}
+							},
+							"m_RtSeparateBlend": false,
+							"m_StencilOp": {
+								"m_Comp": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 8
+								},
+								"m_Fail": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_Pass": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_ZFail": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								}
+							},
+							"m_StencilOpBack": {
+								"m_Comp": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 8
+								},
+								"m_Fail": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_Pass": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_ZFail": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								}
+							},
+							"m_StencilOpFront": {
+								"m_Comp": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 8
+								},
+								"m_Fail": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_Pass": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								},
+								"m_ZFail": {
+									"m_Name": "\u003cnoninit\u003e",
+									"m_Value": 0
+								}
+							},
+							"m_StencilReadMask": {
+								"m_Name": "\u003cnoninit\u003e",
+								"m_Value": 255
+							},
+							"m_StencilRef": {
+								"m_Name": "\u003cnoninit\u003e",
+								"m_Value": 0
+							},
+							"m_StencilWriteMask": {
+								"m_Name": "\u003cnoninit\u003e",
+								"m_Value": 255
+							},
+							"m_Tags": {
+								"m_Tags": {
+									"IGNOREPROJECTOR": "true",
+									"QUEUE": "Transparent-1",
+									"RenderType": "Transparent"
+								}
+							},
+							"m_ZClip": {
+								"m_Name": "\u003cnoninit\u003e",
+								"m_Value": 1
+							},
+							"m_ZTest": {
+								"m_Name": "_ZTest1",
+								"m_Value": 0
+							},
+							"m_ZWrite": {
+								"m_Name": "\u003cnoninit\u003e",
+								"m_Value": 0
+							}
+						},
+						"m_Tags": {
+							"m_Tags": {}
+						},
+						"m_TextureName": "",
+						"m_Type": 0,
+						"m_UseName": ""
+					}
+				],
+				"m_Tags": {
+					"m_Tags": {
+						"IGNOREPROJECTOR": "true",
+						"QUEUE": "Transparent-1",
+						"RenderType": "Transparent"
+					}
+				}
+			}
+		]
+	},
+	"m_Platforms": [
+		4,
+		15
+	],
+	"m_PrefabAsset": { "m_Collection": "sharedassets3.assets", "m_PathID": 0 },
+	"m_PrefabInstance": { "m_Collection": "sharedassets3.assets", "m_PathID": 0 },
+	"m_ShaderIsBaked": true,
+	"m_StageCounts": [
+		2,
+		1
+	]
+}

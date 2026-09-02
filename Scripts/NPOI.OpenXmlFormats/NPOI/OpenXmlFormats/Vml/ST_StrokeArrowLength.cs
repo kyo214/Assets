@@ -1,0 +1,14 @@
+using System;
+using System.Xml.Serialization;
+
+namespace NPOI.OpenXmlFormats.Vml;
+
+[Serializable]
+[XmlType(Namespace = "urn:schemas-microsoft-com:vml")]
+[XmlRoot(Namespace = "urn:schemas-microsoft-com:vml", IsNullable = false)]
+public enum ST_StrokeArrowLength
+{
+	@short = 0,
+	medium = 1,
+	@long = 2
+}

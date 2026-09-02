@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Unity.RenderPipelines.Universal.Runtime</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <NoStandardLib>True</NoStandardLib>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>False</AppendRuntimeIdentifierToOutputPath>
+    <DisableImplicitConfigurationDefines>True</DisableImplicitConfigurationDefines>
+    <DisableImplicitFrameworkDefines>True</DisableImplicitFrameworkDefines>
+    <DisableImplicitFrameworkReferences>True</DisableImplicitFrameworkReferences>
+    <DisableTransitiveProjectReferences>True</DisableTransitiveProjectReferences>
+    <DisableImplicitNamespaceImports>True</DisableImplicitNamespaceImports>
+    <EnsureRuntimePackageDependencies>False</EnsureRuntimePackageDependencies>
+    <AddAdditionalExplicitAssemblyReferences>False</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="../UnityEngine.CoreModule/UnityEngine.CoreModule.csproj" />
+    <ProjectReference Include="../Unity.RenderPipelines.Core.Runtime/Unity.RenderPipelines.Core.Runtime.csproj" />
+    <ProjectReference Include="../mscorlib/mscorlib.csproj" />
+    <ProjectReference Include="../Unity.RenderPipeline.Universal.ShaderLibrary/Unity.RenderPipeline.Universal.ShaderLibrary.csproj" />
+    <ProjectReference Include="../Unity.Mathematics/Unity.Mathematics.csproj" />
+    <ProjectReference Include="../UnityEngine.PhysicsModule/UnityEngine.PhysicsModule.csproj" />
+    <ProjectReference Include="../System/System.csproj" />
+    <ProjectReference Include="../UnityEngine.AnimationModule/UnityEngine.AnimationModule.csproj" />
+    <ProjectReference Include="../Unity.Burst/Unity.Burst.csproj" />
+    <ProjectReference Include="../UnityEngine.SpriteMaskModule/UnityEngine.SpriteMaskModule.csproj" />
+    <ProjectReference Include="../UnityEngine.Physics2DModule/UnityEngine.Physics2DModule.csproj" />
+    <ProjectReference Include="../System.Core/System.Core.csproj" />
+    <ProjectReference Include="../UnityEngine.VFXModule/UnityEngine.VFXModule.csproj" />
+    <ProjectReference Include="../UnityEngine.XRModule/UnityEngine.XRModule.csproj" />
+  </ItemGroup>
+</Project>

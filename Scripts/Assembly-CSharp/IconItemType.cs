@@ -1,0 +1,13 @@
+public enum IconItemType
+{
+	INTERACTABLE = 0,
+	PICKABLE = 1,
+	NOTE = 2,
+	MATERIAL = 3,
+	INSPECT = 4,
+	WARDROBE = 5,
+	ITEM_BOX = 6,
+	CRAFTING = 7,
+	TRANSPORTER = 8,
+	MISSION = 9
+}

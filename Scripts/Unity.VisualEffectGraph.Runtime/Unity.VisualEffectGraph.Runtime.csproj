@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Unity.VisualEffectGraph.Runtime</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <NoStandardLib>True</NoStandardLib>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>False</AppendRuntimeIdentifierToOutputPath>
+    <DisableImplicitConfigurationDefines>True</DisableImplicitConfigurationDefines>
+    <DisableImplicitFrameworkDefines>True</DisableImplicitFrameworkDefines>
+    <DisableImplicitFrameworkReferences>True</DisableImplicitFrameworkReferences>
+    <DisableTransitiveProjectReferences>True</DisableTransitiveProjectReferences>
+    <DisableImplicitNamespaceImports>True</DisableImplicitNamespaceImports>
+    <EnsureRuntimePackageDependencies>False</EnsureRuntimePackageDependencies>
+    <AddAdditionalExplicitAssemblyReferences>False</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="../Unity.Timeline/Unity.Timeline.csproj" />
+    <ProjectReference Include="../UnityEngine.CoreModule/UnityEngine.CoreModule.csproj" />
+    <ProjectReference Include="../UnityEngine.VFXModule/UnityEngine.VFXModule.csproj" />
+    <ProjectReference Include="../mscorlib/mscorlib.csproj" />
+    <ProjectReference Include="../UnityEngine.DirectorModule/UnityEngine.DirectorModule.csproj" />
+    <ProjectReference Include="../Unity.InputSystem/Unity.InputSystem.csproj" />
+    <ProjectReference Include="../UnityEngine.PhysicsModule/UnityEngine.PhysicsModule.csproj" />
+    <ProjectReference Include="../UnityEngine.AudioModule/UnityEngine.AudioModule.csproj" />
+    <ProjectReference Include="../UnityEngine.TerrainModule/UnityEngine.TerrainModule.csproj" />
+    <ProjectReference Include="../UnityEngine.UI/UnityEngine.UI.csproj" />
+    <ProjectReference Include="../System/System.csproj" />
+    <ProjectReference Include="../System.Core/System.Core.csproj" />
+    <ProjectReference Include="../UnityEngine.InputLegacyModule/UnityEngine.InputLegacyModule.csproj" />
+  </ItemGroup>
+</Project>

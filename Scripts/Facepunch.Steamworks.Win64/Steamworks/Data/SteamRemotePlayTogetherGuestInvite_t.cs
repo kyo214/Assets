@@ -1,0 +1,22 @@
+using System;
+using System.Runtime.InteropServices;
+
+namespace Steamworks.Data;
+
+[StructLayout(LayoutKind.Sequential, Pack = 8)]
+internal struct SteamRemotePlayTogetherGuestInvite_t : ICallbackData
+{
+	[MarshalAs(UnmanagedType.ByValArray, SizeConst = 1024)]
+	internal byte[] ConnectURL;
+
+	public static int _datasize = Marshal.SizeOf(typeof(SteamRemotePlayTogetherGuestInvite_t));
+
+	public int DataSize => _datasize;
+
+	public CallbackType CallbackType => CallbackType.SteamRemotePlayTogetherGuestInvite;
+
+	internal string ConnectURLUTF8()
+	{
+		return Utility.Utf8NoBom.GetString(ConnectURL, 0, Array.IndexOf(ConnectURL, (byte)0));
+	}
+}

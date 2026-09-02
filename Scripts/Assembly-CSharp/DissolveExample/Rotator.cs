@@ -1,0 +1,13 @@
+using UnityEngine;
+
+namespace DissolveExample;
+
+public class Rotator : MonoBehaviour
+{
+	public float Speed;
+
+	public void Update()
+	{
+		base.transform.Rotate(Vector3.right, Speed * Time.deltaTime);
+	}
+}

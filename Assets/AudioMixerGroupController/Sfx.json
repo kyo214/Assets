@@ -1,0 +1,47 @@
+{
+	"m_AudioMixer": { "m_Collection": "sharedassets0.assets", "m_PathID": 11037 },
+	"m_BypassEffects": false,
+	"m_Children": [
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11067 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11048 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11050 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11071 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11077 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11073 }
+	],
+	"m_CorrespondingSourceObject": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Effects": [
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 64 }
+	],
+	"m_GroupID": {
+		"m_Data_0_": 4275296472,
+		"m_Data_1_": 1262352710,
+		"m_Data_2_": 3200150201,
+		"m_Data_3_": 2449600694
+	},
+	"m_HideFlags": 0,
+	"m_Mute": false,
+	"m_Name": "Sfx",
+	"m_Pitch": {
+		"m_Data_0_": 3557575620,
+		"m_Data_1_": 1124016269,
+		"m_Data_2_": 1814034573,
+		"m_Data_3_": 2477312888
+	},
+	"m_PrefabAsset": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_PrefabInstance": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Send": {
+		"m_Data_0_": 0,
+		"m_Data_1_": 0,
+		"m_Data_2_": 0,
+		"m_Data_3_": 0
+	},
+	"m_Solo": false,
+	"m_UserColorIndex": 0,
+	"m_Volume": {
+		"m_Data_0_": 232639686,
+		"m_Data_1_": 1141668015,
+		"m_Data_2_": 1407644852,
+		"m_Data_3_": 3646258345
+	}
+}

@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>NPOI.OpenXmlFormats</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <NoStandardLib>True</NoStandardLib>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>False</AppendRuntimeIdentifierToOutputPath>
+    <DisableImplicitConfigurationDefines>True</DisableImplicitConfigurationDefines>
+    <DisableImplicitFrameworkDefines>True</DisableImplicitFrameworkDefines>
+    <DisableImplicitFrameworkReferences>True</DisableImplicitFrameworkReferences>
+    <DisableTransitiveProjectReferences>True</DisableTransitiveProjectReferences>
+    <DisableImplicitNamespaceImports>True</DisableImplicitNamespaceImports>
+    <EnsureRuntimePackageDependencies>False</EnsureRuntimePackageDependencies>
+    <AddAdditionalExplicitAssemblyReferences>False</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="../mscorlib/mscorlib.csproj" />
+    <ProjectReference Include="../System.Xml/System.Xml.csproj" />
+    <ProjectReference Include="../System/System.csproj" />
+    <ProjectReference Include="../NPOI.OpenXml4Net/NPOI.OpenXml4Net.csproj" />
+    <ProjectReference Include="../System.Core/System.Core.csproj" />
+    <ProjectReference Include="../NPOI/NPOI.csproj" />
+  </ItemGroup>
+</Project>

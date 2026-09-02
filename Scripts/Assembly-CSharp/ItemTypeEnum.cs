@@ -1,0 +1,19 @@
+public enum ItemTypeEnum
+{
+	NONE = 0,
+	ITEM = 1,
+	MACHETE = 5,
+	KATANA = 7,
+	AXE = 6,
+	HAMMER = 2,
+	SMG = 17,
+	SHOTGUN = 14,
+	REVOLVER = 12,
+	ASSAULT_RIFFLE = 20,
+	GRENADE_LAUNCHER = 26,
+	CROSSBOW = 16,
+	ARMOR = 381,
+	NVG = 380,
+	HAZMAT = 382,
+	LOCKPICKING_TOOL = 329
+}

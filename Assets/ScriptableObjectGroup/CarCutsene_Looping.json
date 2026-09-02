@@ -1,0 +1,18 @@
+{
+	"Name": "CarCutsene_Looping",
+	"FileExtension": "playable",
+	"Root": { "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 50 },
+	"Children": [
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 55 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 43 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 49 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 54 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 53 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 44 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 46 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 51 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 42 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 52 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 48 }
+	]
+}

@@ -1,0 +1,22 @@
+using System;
+using System.Runtime.InteropServices;
+
+namespace Steamworks.Data;
+
+[StructLayout(LayoutKind.Sequential, Pack = 8)]
+internal struct OverlayBrowserProtocolNavigation_t : ICallbackData
+{
+	[MarshalAs(UnmanagedType.ByValArray, SizeConst = 1024)]
+	internal byte[] RgchURI;
+
+	public static int _datasize = Marshal.SizeOf(typeof(OverlayBrowserProtocolNavigation_t));
+
+	public int DataSize => _datasize;
+
+	public CallbackType CallbackType => CallbackType.OverlayBrowserProtocolNavigation;
+
+	internal string RgchURIUTF8()
+	{
+		return Utility.Utf8NoBom.GetString(RgchURI, 0, Array.IndexOf(RgchURI, (byte)0));
+	}
+}

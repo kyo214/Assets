@@ -1,0 +1,106 @@
+using System;
+using UnityEngine;
+
+namespace MoreMountains.Tools;
+
+public class MMPropertyLinkVector3 : MMPropertyLink
+{
+	public Func<Vector3> GetVector3Delegate;
+
+	public Action<Vector3> SetVector3Delegate;
+
+	protected Vector3 _initialValue;
+
+	protected Vector3 _newValue;
+
+	protected Vector3 _vector3;
+
+	public override void Initialization(MMProperty property)
+	{
+		base.Initialization(property);
+		_initialValue = (Vector3)GetPropertyValue(property);
+	}
+
+	public override void CreateGettersAndSetters(MMProperty property)
+	{
+		base.CreateGettersAndSetters(property);
+		if (property.MemberType == MMProperty.MemberTypes.Property)
+		{
+			object firstArgument = ((property.TargetScriptableObject == null) ? ((UnityEngine.Object)property.TargetComponent) : ((UnityEngine.Object)property.TargetScriptableObject));
+			if (property.MemberPropertyInfo.GetGetMethod() != null)
+			{
+				GetVector3Delegate = (Func<Vector3>)Delegate.CreateDelegate(typeof(Func<Vector3>), firstArgument, property.MemberPropertyInfo.GetGetMethod());
+			}
+			if (property.MemberPropertyInfo.GetSetMethod() != null)
+			{
+				SetVector3Delegate = (Action<Vector3>)Delegate.CreateDelegate(typeof(Action<Vector3>), firstArgument, property.MemberPropertyInfo.GetSetMethod());
+			}
+			_getterSetterInitialized = true;
+		}
+	}
+
+	public override object GetValue(MMPropertyEmitter emitter, MMProperty property)
+	{
+		return GetValueOptimized(property);
+	}
+
+	public override void SetValue(MMPropertyReceiver receiver, MMProperty property, object newValue)
+	{
+		SetValueOptimized(property, (Vector3)newValue);
+	}
+
+	public override float GetLevel(MMPropertyEmitter emitter, MMProperty property)
+	{
+		_vector3 = GetValueOptimized(property);
+		float num = 0f;
+		switch (emitter.Vector3Option)
+		{
+		case MMPropertyEmitter.Vector3Options.X:
+			num = _vector3.x;
+			break;
+		case MMPropertyEmitter.Vector3Options.Y:
+			num = _vector3.y;
+			break;
+		case MMPropertyEmitter.Vector3Options.Z:
+			num = _vector3.z;
+			break;
+		}
+		float value = num;
+		value = MMMaths.Clamp(value, emitter.FloatRemapMinToZero, emitter.FloatRemapMaxToOne, emitter.ClampMin, emitter.ClampMax);
+		return emitter.Level = MMMaths.Remap(value, emitter.FloatRemapMinToZero, emitter.FloatRemapMaxToOne, 0f, 1f);
+	}
+
+	public override void SetLevel(MMPropertyReceiver receiver, MMProperty property, float level)
+	{
+		base.SetLevel(receiver, property, level);
+		_newValue.x = (receiver.ModifyX ? MMMaths.Remap(level, 0f, 1f, receiver.Vector3RemapZero.x, receiver.Vector3RemapOne.x) : 0f);
+		_newValue.y = (receiver.ModifyY ? MMMaths.Remap(level, 0f, 1f, receiver.Vector3RemapZero.y, receiver.Vector3RemapOne.y) : 0f);
+		_newValue.z = (receiver.ModifyZ ? MMMaths.Remap(level, 0f, 1f, receiver.Vector3RemapZero.z, receiver.Vector3RemapOne.z) : 0f);
+		if (receiver.RelativeValue)
+		{
+			_newValue = _initialValue + _newValue;
+		}
+		SetValueOptimized(property, _newValue);
+	}
+
+	protected virtual Vector3 GetValueOptimized(MMProperty property)
+	{
+		if (!_getterSetterInitialized)
+		{
+			return (Vector3)GetPropertyValue(property);
+		}
+		return GetVector3Delegate();
+	}
+
+	protected virtual void SetValueOptimized(MMProperty property, Vector3 newValue)
+	{
+		if (_getterSetterInitialized)
+		{
+			SetVector3Delegate(_newValue);
+		}
+		else
+		{
+			SetPropertyValue(property, _newValue);
+		}
+	}
+}

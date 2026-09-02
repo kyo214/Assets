@@ -1,0 +1,2614 @@
+{
+	"m_AudioMixerGroupViews": [
+		{
+			"m_Guids": [
+				{
+					"m_Data_0_": 1223659714,
+					"m_Data_1_": 1221824664,
+					"m_Data_2_": 1373201086,
+					"m_Data_3_": 174068814
+				},
+				{
+					"m_Data_0_": 2114246591,
+					"m_Data_1_": 1073840811,
+					"m_Data_2_": 2524063666,
+					"m_Data_3_": 2833837806
+				},
+				{
+					"m_Data_0_": 3892639941,
+					"m_Data_1_": 1175233608,
+					"m_Data_2_": 3904476599,
+					"m_Data_3_": 3321273484
+				},
+				{
+					"m_Data_0_": 190669198,
+					"m_Data_1_": 1296888081,
+					"m_Data_2_": 3745009036,
+					"m_Data_3_": 4198584445
+				},
+				{
+					"m_Data_0_": 2726731989,
+					"m_Data_1_": 1161773203,
+					"m_Data_2_": 688272571,
+					"m_Data_3_": 336311461
+				},
+				{
+					"m_Data_0_": 1887106735,
+					"m_Data_1_": 1123071507,
+					"m_Data_2_": 3253717693,
+					"m_Data_3_": 3797386138
+				},
+				{
+					"m_Data_0_": 874343206,
+					"m_Data_1_": 1261235796,
+					"m_Data_2_": 2571493540,
+					"m_Data_3_": 1898674156
+				},
+				{
+					"m_Data_0_": 3747452521,
+					"m_Data_1_": 1139560163,
+					"m_Data_2_": 1270312887,
+					"m_Data_3_": 4146690824
+				},
+				{
+					"m_Data_0_": 652770870,
+					"m_Data_1_": 1185725166,
+					"m_Data_2_": 3831923882,
+					"m_Data_3_": 711484674
+				},
+				{
+					"m_Data_0_": 2971890037,
+					"m_Data_1_": 1251066526,
+					"m_Data_2_": 1632407977,
+					"m_Data_3_": 1686337513
+				},
+				{
+					"m_Data_0_": 94128298,
+					"m_Data_1_": 1264062651,
+					"m_Data_2_": 3816295838,
+					"m_Data_3_": 2635984848
+				},
+				{
+					"m_Data_0_": 4210905963,
+					"m_Data_1_": 1114889562,
+					"m_Data_2_": 1767036079,
+					"m_Data_3_": 1442300713
+				},
+				{
+					"m_Data_0_": 2855686728,
+					"m_Data_1_": 1326316558,
+					"m_Data_2_": 2835335602,
+					"m_Data_3_": 1528552315
+				},
+				{
+					"m_Data_0_": 4242977122,
+					"m_Data_1_": 1231441943,
+					"m_Data_2_": 782797953,
+					"m_Data_3_": 2931039095
+				},
+				{
+					"m_Data_0_": 4291065654,
+					"m_Data_1_": 1078675826,
+					"m_Data_2_": 2849852572,
+					"m_Data_3_": 3975680273
+				},
+				{
+					"m_Data_0_": 3045955742,
+					"m_Data_1_": 1097906424,
+					"m_Data_2_": 4196323747,
+					"m_Data_3_": 4135933551
+				},
+				{
+					"m_Data_0_": 2133270554,
+					"m_Data_1_": 1088239759,
+					"m_Data_2_": 3559869062,
+					"m_Data_3_": 704284726
+				},
+				{
+					"m_Data_0_": 2624443881,
+					"m_Data_1_": 1156777961,
+					"m_Data_2_": 1768673177,
+					"m_Data_3_": 719192522
+				},
+				{
+					"m_Data_0_": 1950456103,
+					"m_Data_1_": 1100598977,
+					"m_Data_2_": 4004962236,
+					"m_Data_3_": 1734058410
+				},
+				{
+					"m_Data_0_": 3377333168,
+					"m_Data_1_": 1234462381,
+					"m_Data_2_": 1608896182,
+					"m_Data_3_": 3444116594
+				},
+				{
+					"m_Data_0_": 268517235,
+					"m_Data_1_": 1312385647,
+					"m_Data_2_": 1890471582,
+					"m_Data_3_": 431948768
+				},
+				{
+					"m_Data_0_": 1211787959,
+					"m_Data_1_": 1202479207,
+					"m_Data_2_": 879986087,
+					"m_Data_3_": 2922718287
+				},
+				{
+					"m_Data_0_": 1789877070,
+					"m_Data_1_": 1145549428,
+					"m_Data_2_": 2155157667,
+					"m_Data_3_": 3307004218
+				},
+				{
+					"m_Data_0_": 1698798920,
+					"m_Data_1_": 1341721421,
+					"m_Data_2_": 2796793506,
+					"m_Data_3_": 3332497788
+				},
+				{
+					"m_Data_0_": 2038123986,
+					"m_Data_1_": 1249445236,
+					"m_Data_2_": 4154969528,
+					"m_Data_3_": 1700063670
+				},
+				{
+					"m_Data_0_": 4275296472,
+					"m_Data_1_": 1262352710,
+					"m_Data_2_": 3200150201,
+					"m_Data_3_": 2449600694
+				},
+				{
+					"m_Data_0_": 1968474093,
+					"m_Data_1_": 1114289380,
+					"m_Data_2_": 3480623528,
+					"m_Data_3_": 4253425778
+				},
+				{
+					"m_Data_0_": 2466496025,
+					"m_Data_1_": 1262697258,
+					"m_Data_2_": 1886487177,
+					"m_Data_3_": 423811198
+				},
+				{
+					"m_Data_0_": 442094736,
+					"m_Data_1_": 1305626273,
+					"m_Data_2_": 1849581957,
+					"m_Data_3_": 1878479889
+				},
+				{
+					"m_Data_0_": 2427233783,
+					"m_Data_1_": 1250359123,
+					"m_Data_2_": 960683701,
+					"m_Data_3_": 442743690
+				},
+				{
+					"m_Data_0_": 2622946268,
+					"m_Data_1_": 1288364715,
+					"m_Data_2_": 1997055105,
+					"m_Data_3_": 33583212
+				},
+				{
+					"m_Data_0_": 3204400471,
+					"m_Data_1_": 1320288350,
+					"m_Data_2_": 1909988013,
+					"m_Data_3_": 1556207976
+				},
+				{
+					"m_Data_0_": 1994505647,
+					"m_Data_1_": 1166807862,
+					"m_Data_2_": 3798123950,
+					"m_Data_3_": 3593405670
+				},
+				{
+					"m_Data_0_": 613291562,
+					"m_Data_1_": 1259853889,
+					"m_Data_2_": 3482503334,
+					"m_Data_3_": 3261745029
+				},
+				{
+					"m_Data_0_": 1632842647,
+					"m_Data_1_": 1147707570,
+					"m_Data_2_": 4002661249,
+					"m_Data_3_": 1103705775
+				},
+				{
+					"m_Data_0_": 1662087664,
+					"m_Data_1_": 1186901053,
+					"m_Data_2_": 2026939830,
+					"m_Data_3_": 1069770182
+				},
+				{
+					"m_Data_0_": 3544514746,
+					"m_Data_1_": 1169688062,
+					"m_Data_2_": 2790313630,
+					"m_Data_3_": 3001857493
+				},
+				{
+					"m_Data_0_": 2371653602,
+					"m_Data_1_": 1254070090,
+					"m_Data_2_": 2767595663,
+					"m_Data_3_": 2408823108
+				},
+				{
+					"m_Data_0_": 166281783,
+					"m_Data_1_": 1228960785,
+					"m_Data_2_": 2819847838,
+					"m_Data_3_": 1366169965
+				},
+				{
+					"m_Data_0_": 2717362835,
+					"m_Data_1_": 1077530392,
+					"m_Data_2_": 1059498677,
+					"m_Data_3_": 2985915157
+				}
+			],
+			"m_Name": "View"
+		}
+	],
+	"m_CorrespondingSourceObject": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_CurrentViewIndex": 0,
+	"m_EnableSuspend": true,
+	"m_ExposedParameters": [
+		{
+			"m_Guid": {
+				"m_Data_0_": 608294787,
+				"m_Data_1_": 1161744481,
+				"m_Data_2_": 3967533959,
+				"m_Data_3_": 1237488985
+			},
+			"m_Name": "MjqhpMH"
+		},
+		{
+			"m_Guid": {
+				"m_Data_0_": 1558451954,
+				"m_Data_1_": 1324619261,
+				"m_Data_2_": 864989102,
+				"m_Data_3_": 252625904
+			},
+			"m_Name": "wqIUImN"
+		},
+		{
+			"m_Guid": {
+				"m_Data_0_": 925836232,
+				"m_Data_1_": 1264893613,
+				"m_Data_2_": 2028173207,
+				"m_Data_3_": 2055830581
+			},
+			"m_Name": "uQQLrIL"
+		},
+		{
+			"m_Guid": {
+				"m_Data_0_": 3050139373,
+				"m_Data_1_": 1222865117,
+				"m_Data_2_": 3619244956,
+				"m_Data_3_": 1565605140
+			},
+			"m_Name": "IKWHTmH"
+		},
+		{
+			"m_Guid": {
+				"m_Data_0_": 2992299300,
+				"m_Data_1_": 1129177834,
+				"m_Data_2_": 504741819,
+				"m_Data_3_": 2163211223
+			},
+			"m_Name": "QnLOhWJ"
+		},
+		{
+			"m_Guid": {
+				"m_Data_0_": 3014623374,
+				"m_Data_1_": 1171571607,
+				"m_Data_2_": 3418915981,
+				"m_Data_3_": 2656258304
+			},
+			"m_Name": "QPoUoWL"
+		},
+		{
+			"m_Guid": {
+				"m_Data_0_": 232639686,
+				"m_Data_1_": 1141668015,
+				"m_Data_2_": 1407644852,
+				"m_Data_3_": 3646258345
+			},
+			"m_Name": "hUQqLVJ"
+		},
+		{
+			"m_Guid": {
+				"m_Data_0_": 2262970045,
+				"m_Data_1_": 1330305304,
+				"m_Data_2_": 3579917739,
+				"m_Data_3_": 1677453696
+			},
+			"m_Name": "KTMmikL"
+		},
+		{
+			"m_Guid": {
+				"m_Data_0_": 2678842833,
+				"m_Data_1_": 1080348017,
+				"m_Data_2_": 4010217389,
+				"m_Data_3_": 2640876519
+			},
+			"m_Name": "TwQWklJ"
+		},
+		{
+			"m_Guid": {
+				"m_Data_0_": 3596237323,
+				"m_Data_1_": 1207478919,
+				"m_Data_2_": 2112774058,
+				"m_Data_3_": 1587408777
+			},
+			"m_Name": "TpNwjqL"
+		}
+	],
+	"m_HideFlags": 0,
+	"m_MasterGroup": { "m_Collection": "sharedassets0.assets", "m_PathID": 11056 },
+	"m_MixerConstant": {
+		"m_EffectGUIDs": [
+			{
+				"m_Data_0_": 2532474273,
+				"m_Data_1_": 1126196783,
+				"m_Data_2_": 359991204,
+				"m_Data_3_": 3858182702
+			},
+			{
+				"m_Data_0_": 221696995,
+				"m_Data_1_": 1238208043,
+				"m_Data_2_": 1129002126,
+				"m_Data_3_": 722115982
+			},
+			{
+				"m_Data_0_": 3377533423,
+				"m_Data_1_": 1295768745,
+				"m_Data_2_": 4177170867,
+				"m_Data_3_": 2683710683
+			},
+			{
+				"m_Data_0_": 1362834034,
+				"m_Data_1_": 1147906834,
+				"m_Data_2_": 3989258132,
+				"m_Data_3_": 94919518
+			},
+			{
+				"m_Data_0_": 655305559,
+				"m_Data_1_": 1268638236,
+				"m_Data_2_": 3517531820,
+				"m_Data_3_": 1172382336
+			},
+			{
+				"m_Data_0_": 4073128548,
+				"m_Data_1_": 1221369905,
+				"m_Data_2_": 1484018364,
+				"m_Data_3_": 3824852059
+			},
+			{
+				"m_Data_0_": 2638831746,
+				"m_Data_1_": 1154422860,
+				"m_Data_2_": 1574857608,
+				"m_Data_3_": 3956835561
+			},
+			{
+				"m_Data_0_": 2606858558,
+				"m_Data_1_": 1117763269,
+				"m_Data_2_": 3708893854,
+				"m_Data_3_": 733148850
+			},
+			{
+				"m_Data_0_": 1040563923,
+				"m_Data_1_": 1289488734,
+				"m_Data_2_": 3567737473,
+				"m_Data_3_": 1600070018
+			},
+			{
+				"m_Data_0_": 711606694,
+				"m_Data_1_": 1250484744,
+				"m_Data_2_": 847621535,
+				"m_Data_3_": 1212947377
+			},
+			{
+				"m_Data_0_": 486498150,
+				"m_Data_1_": 1091316212,
+				"m_Data_2_": 391592089,
+				"m_Data_3_": 3551922855
+			},
+			{
+				"m_Data_0_": 3444535728,
+				"m_Data_1_": 1250653641,
+				"m_Data_2_": 4090395042,
+				"m_Data_3_": 1622182247
+			},
+			{
+				"m_Data_0_": 4053706888,
+				"m_Data_1_": 1267917008,
+				"m_Data_2_": 975228326,
+				"m_Data_3_": 4222258500
+			},
+			{
+				"m_Data_0_": 1800962655,
+				"m_Data_1_": 1264463109,
+				"m_Data_2_": 1832008878,
+				"m_Data_3_": 2794703869
+			},
+			{
+				"m_Data_0_": 77983249,
+				"m_Data_1_": 1160090520,
+				"m_Data_2_": 4140886149,
+				"m_Data_3_": 3534996033
+			},
+			{
+				"m_Data_0_": 2864630975,
+				"m_Data_1_": 1286700902,
+				"m_Data_2_": 2966695044,
+				"m_Data_3_": 462000753
+			},
+			{
+				"m_Data_0_": 3258448771,
+				"m_Data_1_": 1280228282,
+				"m_Data_2_": 695742607,
+				"m_Data_3_": 2452847652
+			},
+			{
+				"m_Data_0_": 3539059349,
+				"m_Data_1_": 1229973708,
+				"m_Data_2_": 743731645,
+				"m_Data_3_": 242975856
+			},
+			{
+				"m_Data_0_": 1608480375,
+				"m_Data_1_": 1218419075,
+				"m_Data_2_": 3223384483,
+				"m_Data_3_": 4075014212
+			},
+			{
+				"m_Data_0_": 3984817773,
+				"m_Data_1_": 1116033828,
+				"m_Data_2_": 934244759,
+				"m_Data_3_": 3787627374
+			},
+			{
+				"m_Data_0_": 2583911748,
+				"m_Data_1_": 1288308757,
+				"m_Data_2_": 530627257,
+				"m_Data_3_": 1947373168
+			},
+			{
+				"m_Data_0_": 101284491,
+				"m_Data_1_": 1179782492,
+				"m_Data_2_": 1054007735,
+				"m_Data_3_": 1920794257
+			},
+			{
+				"m_Data_0_": 4062908645,
+				"m_Data_1_": 1227050392,
+				"m_Data_2_": 1850548654,
+				"m_Data_3_": 654889631
+			},
+			{
+				"m_Data_0_": 116328031,
+				"m_Data_1_": 1079136004,
+				"m_Data_2_": 1955550605,
+				"m_Data_3_": 2745778027
+			},
+			{
+				"m_Data_0_": 1813395487,
+				"m_Data_1_": 1337098606,
+				"m_Data_2_": 2238045622,
+				"m_Data_3_": 32740336
+			},
+			{
+				"m_Data_0_": 2751822758,
+				"m_Data_1_": 1298013589,
+				"m_Data_2_": 2000648638,
+				"m_Data_3_": 1334284085
+			},
+			{
+				"m_Data_0_": 2841159017,
+				"m_Data_1_": 1247339077,
+				"m_Data_2_": 1826394519,
+				"m_Data_3_": 4254998020
+			},
+			{
+				"m_Data_0_": 463163183,
+				"m_Data_1_": 1225776797,
+				"m_Data_2_": 3357746058,
+				"m_Data_3_": 2147622276
+			},
+			{
+				"m_Data_0_": 1255634967,
+				"m_Data_1_": 1265436520,
+				"m_Data_2_": 256375951,
+				"m_Data_3_": 2633166013
+			},
+			{
+				"m_Data_0_": 200645297,
+				"m_Data_1_": 1258067544,
+				"m_Data_2_": 4081417657,
+				"m_Data_3_": 4179309845
+			},
+			{
+				"m_Data_0_": 3192072751,
+				"m_Data_1_": 1214086548,
+				"m_Data_2_": 3792429219,
+				"m_Data_3_": 766365146
+			},
+			{
+				"m_Data_0_": 3344934524,
+				"m_Data_1_": 1337368754,
+				"m_Data_2_": 3299279518,
+				"m_Data_3_": 2607907574
+			},
+			{
+				"m_Data_0_": 2871641896,
+				"m_Data_1_": 1272431335,
+				"m_Data_2_": 2222508438,
+				"m_Data_3_": 4023494439
+			},
+			{
+				"m_Data_0_": 3241969039,
+				"m_Data_1_": 1312850478,
+				"m_Data_2_": 3844803203,
+				"m_Data_3_": 3734778729
+			},
+			{
+				"m_Data_0_": 1669023570,
+				"m_Data_1_": 1177674910,
+				"m_Data_2_": 3165373595,
+				"m_Data_3_": 710133060
+			},
+			{
+				"m_Data_0_": 3110018240,
+				"m_Data_1_": 1204296973,
+				"m_Data_2_": 2919047565,
+				"m_Data_3_": 3386921509
+			},
+			{
+				"m_Data_0_": 1033893219,
+				"m_Data_1_": 1144962808,
+				"m_Data_2_": 530643130,
+				"m_Data_3_": 3299529095
+			},
+			{
+				"m_Data_0_": 967634487,
+				"m_Data_1_": 1310602608,
+				"m_Data_2_": 3343025567,
+				"m_Data_3_": 3797015178
+			},
+			{
+				"m_Data_0_": 3035695539,
+				"m_Data_1_": 1092951728,
+				"m_Data_2_": 2621814685,
+				"m_Data_3_": 2691169649
+			},
+			{
+				"m_Data_0_": 1169019061,
+				"m_Data_1_": 1325694972,
+				"m_Data_2_": 1969476784,
+				"m_Data_3_": 176628064
+			},
+			{
+				"m_Data_0_": 3174867344,
+				"m_Data_1_": 1323819201,
+				"m_Data_2_": 2514347435,
+				"m_Data_3_": 220680728
+			},
+			{
+				"m_Data_0_": 3696820026,
+				"m_Data_1_": 1127637081,
+				"m_Data_2_": 2592666033,
+				"m_Data_3_": 2205837676
+			},
+			{
+				"m_Data_0_": 627774639,
+				"m_Data_1_": 1202550636,
+				"m_Data_2_": 2100191914,
+				"m_Data_3_": 612647386
+			},
+			{
+				"m_Data_0_": 3276354358,
+				"m_Data_1_": 1222222942,
+				"m_Data_2_": 4016762782,
+				"m_Data_3_": 357780789
+			},
+			{
+				"m_Data_0_": 3410242081,
+				"m_Data_1_": 1149182711,
+				"m_Data_2_": 315518096,
+				"m_Data_3_": 1318585386
+			},
+			{
+				"m_Data_0_": 1641102526,
+				"m_Data_1_": 1239201128,
+				"m_Data_2_": 686150302,
+				"m_Data_3_": 30014396
+			},
+			{
+				"m_Data_0_": 2506177097,
+				"m_Data_1_": 1097954864,
+				"m_Data_2_": 4163292833,
+				"m_Data_3_": 4289333042
+			},
+			{
+				"m_Data_0_": 673910050,
+				"m_Data_1_": 1235011622,
+				"m_Data_2_": 1684732071,
+				"m_Data_3_": 2500964290
+			},
+			{
+				"m_Data_0_": 591297456,
+				"m_Data_1_": 1139524093,
+				"m_Data_2_": 1858464929,
+				"m_Data_3_": 377615080
+			},
+			{
+				"m_Data_0_": 2987419699,
+				"m_Data_1_": 1085478255,
+				"m_Data_2_": 2166253740,
+				"m_Data_3_": 1786863110
+			},
+			{
+				"m_Data_0_": 637948305,
+				"m_Data_1_": 1111536947,
+				"m_Data_2_": 1159944105,
+				"m_Data_3_": 3452395039
+			},
+			{
+				"m_Data_0_": 1372269342,
+				"m_Data_1_": 1113230278,
+				"m_Data_2_": 2871564988,
+				"m_Data_3_": 456674346
+			},
+			{
+				"m_Data_0_": 3005855308,
+				"m_Data_1_": 1336080022,
+				"m_Data_2_": 4292254872,
+				"m_Data_3_": 2982056028
+			}
+		],
+		"m_Effects": [
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 1,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 4294967295,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 1,
+				"m_ParameterIndices": [
+					80,
+					81
+				],
+				"m_PrevEffectIndex": 0,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 3,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 2,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 1,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 2,
+				"m_ParameterIndices": [
+					82,
+					83,
+					84,
+					85,
+					86,
+					87,
+					88
+				],
+				"m_PrevEffectIndex": 2,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -5,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 2,
+				"m_ParameterIndices": [
+					89,
+					90
+				],
+				"m_PrevEffectIndex": 3,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 3,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 8,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 4,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 8,
+				"m_ParameterIndices": [
+					91,
+					92,
+					93,
+					94
+				],
+				"m_PrevEffectIndex": 5,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 16,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 8,
+				"m_ParameterIndices": [
+					95,
+					96,
+					97
+				],
+				"m_PrevEffectIndex": 6,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 10,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 8,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 7,
+				"m_SendTargetEffectIndex": 3,
+				"m_Type": -3,
+				"m_WetMixLevelIndex": 98
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 9,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 8,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 9,
+				"m_ParameterIndices": [
+					99,
+					100,
+					101,
+					102
+				],
+				"m_PrevEffectIndex": 9,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 16,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 10,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 10,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 10,
+				"m_ParameterIndices": [
+					103,
+					104,
+					105
+				],
+				"m_PrevEffectIndex": 11,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 9,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 10,
+				"m_ParameterIndices": [
+					106,
+					107
+				],
+				"m_PrevEffectIndex": 12,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 3,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 11,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 13,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 11,
+				"m_ParameterIndices": [
+					108,
+					109,
+					110
+				],
+				"m_PrevEffectIndex": 14,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 9,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 11,
+				"m_ParameterIndices": [
+					111,
+					112
+				],
+				"m_PrevEffectIndex": 15,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 5,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": true,
+				"m_GroupConstantIndex": 11,
+				"m_ParameterIndices": [
+					113
+				],
+				"m_PrevEffectIndex": 16,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 8,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 12,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 17,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 12,
+				"m_ParameterIndices": [
+					114,
+					115,
+					116,
+					117,
+					118,
+					119,
+					120,
+					121,
+					122,
+					123,
+					124,
+					125,
+					126,
+					127
+				],
+				"m_PrevEffectIndex": 18,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 17,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 15,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 19,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 15,
+				"m_ParameterIndices": [
+					128,
+					129,
+					130,
+					131
+				],
+				"m_PrevEffectIndex": 20,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 16,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 16,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 21,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 16,
+				"m_ParameterIndices": [
+					132,
+					133,
+					134,
+					135
+				],
+				"m_PrevEffectIndex": 22,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 11,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 17,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 23,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 17,
+				"m_ParameterIndices": [
+					136,
+					137,
+					138,
+					139
+				],
+				"m_PrevEffectIndex": 24,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 16,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 17,
+				"m_ParameterIndices": [
+					140,
+					141,
+					142
+				],
+				"m_PrevEffectIndex": 25,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 10,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 18,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 26,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 18,
+				"m_ParameterIndices": [
+					143,
+					144,
+					145,
+					146
+				],
+				"m_PrevEffectIndex": 27,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 16,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 19,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 28,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 19,
+				"m_ParameterIndices": [
+					147,
+					148,
+					149
+				],
+				"m_PrevEffectIndex": 29,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 9,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 19,
+				"m_ParameterIndices": [
+					150,
+					151
+				],
+				"m_PrevEffectIndex": 30,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 3,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 20,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 31,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 20,
+				"m_ParameterIndices": [
+					152,
+					153,
+					154
+				],
+				"m_PrevEffectIndex": 32,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 9,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 20,
+				"m_ParameterIndices": [
+					155,
+					156
+				],
+				"m_PrevEffectIndex": 33,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 5,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 20,
+				"m_ParameterIndices": [
+					157
+				],
+				"m_PrevEffectIndex": 34,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 8,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 21,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 35,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 21,
+				"m_ParameterIndices": [
+					158,
+					159,
+					160,
+					161,
+					162,
+					163,
+					164,
+					165,
+					166,
+					167,
+					168,
+					169,
+					170,
+					171
+				],
+				"m_PrevEffectIndex": 36,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 17,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 24,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 37,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 24,
+				"m_ParameterIndices": [
+					172,
+					173,
+					174,
+					175
+				],
+				"m_PrevEffectIndex": 38,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 16,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 26,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 39,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 28,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 40,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 28,
+				"m_ParameterIndices": [
+					176,
+					177,
+					178,
+					179,
+					180,
+					181,
+					182
+				],
+				"m_PrevEffectIndex": 41,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -5,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 29,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 42,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 29,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 43,
+				"m_SendTargetEffectIndex": 42,
+				"m_Type": -3,
+				"m_WetMixLevelIndex": 183
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 29,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 44,
+				"m_SendTargetEffectIndex": 52,
+				"m_Type": -3,
+				"m_WetMixLevelIndex": 184
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 29,
+				"m_ParameterIndices": [
+					185,
+					186
+				],
+				"m_PrevEffectIndex": 45,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 3,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 31,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 46,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 31,
+				"m_ParameterIndices": [
+					187,
+					188,
+					189
+				],
+				"m_PrevEffectIndex": 47,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 10,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 31,
+				"m_ParameterIndices": [
+					190,
+					191,
+					192,
+					193,
+					194,
+					195,
+					196,
+					197,
+					198,
+					199,
+					200,
+					201,
+					202,
+					203
+				],
+				"m_PrevEffectIndex": 48,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 17,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 32,
+				"m_ParameterIndices": [],
+				"m_PrevEffectIndex": 49,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -2,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 32,
+				"m_ParameterIndices": [
+					204,
+					205
+				],
+				"m_PrevEffectIndex": 50,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": 3,
+				"m_WetMixLevelIndex": 4294967295
+			},
+			{
+				"m_Bypass": false,
+				"m_GroupConstantIndex": 32,
+				"m_ParameterIndices": [
+					206,
+					207,
+					208,
+					209,
+					210,
+					211,
+					212
+				],
+				"m_PrevEffectIndex": 51,
+				"m_SendTargetEffectIndex": 4294967295,
+				"m_Type": -5,
+				"m_WetMixLevelIndex": 4294967295
+			}
+		],
+		"m_ExposedParameterIndices": [
+			10,
+			80,
+			0,
+			4,
+			16,
+			113,
+			50,
+			78,
+			14,
+			24
+		],
+		"m_ExposedParameterNames": [
+			1121870290,
+			3817989413,
+			972799895,
+			1041378390,
+			1366513649,
+			988438707,
+			2901296066,
+			2603960386,
+			347821607,
+			1559325420
+		],
+		"m_GroupGUIDs": [
+			{
+				"m_Data_0_": 1223659714,
+				"m_Data_1_": 1221824664,
+				"m_Data_2_": 1373201086,
+				"m_Data_3_": 174068814
+			},
+			{
+				"m_Data_0_": 2114246591,
+				"m_Data_1_": 1073840811,
+				"m_Data_2_": 2524063666,
+				"m_Data_3_": 2833837806
+			},
+			{
+				"m_Data_0_": 3892639941,
+				"m_Data_1_": 1175233608,
+				"m_Data_2_": 3904476599,
+				"m_Data_3_": 3321273484
+			},
+			{
+				"m_Data_0_": 190669198,
+				"m_Data_1_": 1296888081,
+				"m_Data_2_": 3745009036,
+				"m_Data_3_": 4198584445
+			},
+			{
+				"m_Data_0_": 2726731989,
+				"m_Data_1_": 1161773203,
+				"m_Data_2_": 688272571,
+				"m_Data_3_": 336311461
+			},
+			{
+				"m_Data_0_": 1887106735,
+				"m_Data_1_": 1123071507,
+				"m_Data_2_": 3253717693,
+				"m_Data_3_": 3797386138
+			},
+			{
+				"m_Data_0_": 874343206,
+				"m_Data_1_": 1261235796,
+				"m_Data_2_": 2571493540,
+				"m_Data_3_": 1898674156
+			},
+			{
+				"m_Data_0_": 3747452521,
+				"m_Data_1_": 1139560163,
+				"m_Data_2_": 1270312887,
+				"m_Data_3_": 4146690824
+			},
+			{
+				"m_Data_0_": 652770870,
+				"m_Data_1_": 1185725166,
+				"m_Data_2_": 3831923882,
+				"m_Data_3_": 711484674
+			},
+			{
+				"m_Data_0_": 2971890037,
+				"m_Data_1_": 1251066526,
+				"m_Data_2_": 1632407977,
+				"m_Data_3_": 1686337513
+			},
+			{
+				"m_Data_0_": 94128298,
+				"m_Data_1_": 1264062651,
+				"m_Data_2_": 3816295838,
+				"m_Data_3_": 2635984848
+			},
+			{
+				"m_Data_0_": 4210905963,
+				"m_Data_1_": 1114889562,
+				"m_Data_2_": 1767036079,
+				"m_Data_3_": 1442300713
+			},
+			{
+				"m_Data_0_": 2855686728,
+				"m_Data_1_": 1326316558,
+				"m_Data_2_": 2835335602,
+				"m_Data_3_": 1528552315
+			},
+			{
+				"m_Data_0_": 4242977122,
+				"m_Data_1_": 1231441943,
+				"m_Data_2_": 782797953,
+				"m_Data_3_": 2931039095
+			},
+			{
+				"m_Data_0_": 4291065654,
+				"m_Data_1_": 1078675826,
+				"m_Data_2_": 2849852572,
+				"m_Data_3_": 3975680273
+			},
+			{
+				"m_Data_0_": 3045955742,
+				"m_Data_1_": 1097906424,
+				"m_Data_2_": 4196323747,
+				"m_Data_3_": 4135933551
+			},
+			{
+				"m_Data_0_": 2133270554,
+				"m_Data_1_": 1088239759,
+				"m_Data_2_": 3559869062,
+				"m_Data_3_": 704284726
+			},
+			{
+				"m_Data_0_": 2624443881,
+				"m_Data_1_": 1156777961,
+				"m_Data_2_": 1768673177,
+				"m_Data_3_": 719192522
+			},
+			{
+				"m_Data_0_": 1950456103,
+				"m_Data_1_": 1100598977,
+				"m_Data_2_": 4004962236,
+				"m_Data_3_": 1734058410
+			},
+			{
+				"m_Data_0_": 3377333168,
+				"m_Data_1_": 1234462381,
+				"m_Data_2_": 1608896182,
+				"m_Data_3_": 3444116594
+			},
+			{
+				"m_Data_0_": 268517235,
+				"m_Data_1_": 1312385647,
+				"m_Data_2_": 1890471582,
+				"m_Data_3_": 431948768
+			},
+			{
+				"m_Data_0_": 1211787959,
+				"m_Data_1_": 1202479207,
+				"m_Data_2_": 879986087,
+				"m_Data_3_": 2922718287
+			},
+			{
+				"m_Data_0_": 1789877070,
+				"m_Data_1_": 1145549428,
+				"m_Data_2_": 2155157667,
+				"m_Data_3_": 3307004218
+			},
+			{
+				"m_Data_0_": 1698798920,
+				"m_Data_1_": 1341721421,
+				"m_Data_2_": 2796793506,
+				"m_Data_3_": 3332497788
+			},
+			{
+				"m_Data_0_": 2038123986,
+				"m_Data_1_": 1249445236,
+				"m_Data_2_": 4154969528,
+				"m_Data_3_": 1700063670
+			},
+			{
+				"m_Data_0_": 4275296472,
+				"m_Data_1_": 1262352710,
+				"m_Data_2_": 3200150201,
+				"m_Data_3_": 2449600694
+			},
+			{
+				"m_Data_0_": 1968474093,
+				"m_Data_1_": 1114289380,
+				"m_Data_2_": 3480623528,
+				"m_Data_3_": 4253425778
+			},
+			{
+				"m_Data_0_": 2466496025,
+				"m_Data_1_": 1262697258,
+				"m_Data_2_": 1886487177,
+				"m_Data_3_": 423811198
+			},
+			{
+				"m_Data_0_": 442094736,
+				"m_Data_1_": 1305626273,
+				"m_Data_2_": 1849581957,
+				"m_Data_3_": 1878479889
+			},
+			{
+				"m_Data_0_": 2427233783,
+				"m_Data_1_": 1250359123,
+				"m_Data_2_": 960683701,
+				"m_Data_3_": 442743690
+			},
+			{
+				"m_Data_0_": 2622946268,
+				"m_Data_1_": 1288364715,
+				"m_Data_2_": 1997055105,
+				"m_Data_3_": 33583212
+			},
+			{
+				"m_Data_0_": 3204400471,
+				"m_Data_1_": 1320288350,
+				"m_Data_2_": 1909988013,
+				"m_Data_3_": 1556207976
+			},
+			{
+				"m_Data_0_": 1994505647,
+				"m_Data_1_": 1166807862,
+				"m_Data_2_": 3798123950,
+				"m_Data_3_": 3593405670
+			},
+			{
+				"m_Data_0_": 613291562,
+				"m_Data_1_": 1259853889,
+				"m_Data_2_": 3482503334,
+				"m_Data_3_": 3261745029
+			},
+			{
+				"m_Data_0_": 1632842647,
+				"m_Data_1_": 1147707570,
+				"m_Data_2_": 4002661249,
+				"m_Data_3_": 1103705775
+			},
+			{
+				"m_Data_0_": 1662087664,
+				"m_Data_1_": 1186901053,
+				"m_Data_2_": 2026939830,
+				"m_Data_3_": 1069770182
+			},
+			{
+				"m_Data_0_": 3544514746,
+				"m_Data_1_": 1169688062,
+				"m_Data_2_": 2790313630,
+				"m_Data_3_": 3001857493
+			},
+			{
+				"m_Data_0_": 2371653602,
+				"m_Data_1_": 1254070090,
+				"m_Data_2_": 2767595663,
+				"m_Data_3_": 2408823108
+			},
+			{
+				"m_Data_0_": 166281783,
+				"m_Data_1_": 1228960785,
+				"m_Data_2_": 2819847838,
+				"m_Data_3_": 1366169965
+			},
+			{
+				"m_Data_0_": 2717362835,
+				"m_Data_1_": 1077530392,
+				"m_Data_2_": 1059498677,
+				"m_Data_3_": 2985915157
+			}
+		],
+		"m_GroupNameBuffer": "TWFzdGVyAEdhbWUATXVzaWMARW5jb3VudGVyAEJhc2VNdXNpYwBBbWJpZW50AEJhc2VBbWJpZW50AFZvaWNlAFBsYXllckNvbW0AU2FtZVJvb20ARGlmZlJvb20AUmFkaW9IVABWb2ljZU92ZXIAQ29tYmF0Vk8AQ2hhdHdoZWVsVk8ARGlhbG9ndWVWTwBWb2ljZSAtIFNsb3dNb3Rpb24AUGxheWVyQ29tbSAtIFNsb3dNb3Rpb24AU2FtZVJvb20gLSBTbG93TW90aW9uAERpZmZSb29tIC0gU2xvd01vdGlvbgBSYWRpb0hUIC0gU2xvd01vdGlvbgBWb2ljZU92ZXIgLSBTbG93TW90aW9uAENvbWJhdFZPIC0gU2xvd01vdGlvbgBDaGF0d2hlZWxWTyAtIFNsb3dNb3Rpb24ARGlhbG9ndWVWTyAtIFNsb3dNb3Rpb24AU2Z4AEVudmlyb25tZW50AERvb3JzAE5vaXNlcwBQbGF5ZXIAUGxheWVyQXR0YWNrAFJhbmdlZFdlYXBvbgBFbmVteQBBZ2dybzAxAEFnZ3JvMDIASWRsZTAxAEVuZW15QXR0YWNrAEJyZWF0aABKdW1wc2NhcmUAVUkAAA==",
+		"m_Groups": [
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": -1,
+				"m_PitchIndex": 1,
+				"m_Solo": false,
+				"m_VolumeIndex": 0
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 0,
+				"m_PitchIndex": 3,
+				"m_Solo": false,
+				"m_VolumeIndex": 2
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 1,
+				"m_PitchIndex": 5,
+				"m_Solo": false,
+				"m_VolumeIndex": 4
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 2,
+				"m_PitchIndex": 7,
+				"m_Solo": false,
+				"m_VolumeIndex": 6
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 2,
+				"m_PitchIndex": 9,
+				"m_Solo": false,
+				"m_VolumeIndex": 8
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 1,
+				"m_PitchIndex": 11,
+				"m_Solo": false,
+				"m_VolumeIndex": 10
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 5,
+				"m_PitchIndex": 13,
+				"m_Solo": false,
+				"m_VolumeIndex": 12
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 1,
+				"m_PitchIndex": 15,
+				"m_Solo": false,
+				"m_VolumeIndex": 14
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 7,
+				"m_PitchIndex": 17,
+				"m_Solo": false,
+				"m_VolumeIndex": 16
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 8,
+				"m_PitchIndex": 19,
+				"m_Solo": false,
+				"m_VolumeIndex": 18
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 8,
+				"m_PitchIndex": 21,
+				"m_Solo": false,
+				"m_VolumeIndex": 20
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 8,
+				"m_PitchIndex": 23,
+				"m_Solo": false,
+				"m_VolumeIndex": 22
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 7,
+				"m_PitchIndex": 25,
+				"m_Solo": false,
+				"m_VolumeIndex": 24
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 12,
+				"m_PitchIndex": 27,
+				"m_Solo": false,
+				"m_VolumeIndex": 26
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 12,
+				"m_PitchIndex": 29,
+				"m_Solo": false,
+				"m_VolumeIndex": 28
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 12,
+				"m_PitchIndex": 31,
+				"m_Solo": false,
+				"m_VolumeIndex": 30
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 1,
+				"m_PitchIndex": 33,
+				"m_Solo": false,
+				"m_VolumeIndex": 32
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 16,
+				"m_PitchIndex": 35,
+				"m_Solo": false,
+				"m_VolumeIndex": 34
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 17,
+				"m_PitchIndex": 37,
+				"m_Solo": false,
+				"m_VolumeIndex": 36
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 17,
+				"m_PitchIndex": 39,
+				"m_Solo": false,
+				"m_VolumeIndex": 38
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 17,
+				"m_PitchIndex": 41,
+				"m_Solo": false,
+				"m_VolumeIndex": 40
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 16,
+				"m_PitchIndex": 43,
+				"m_Solo": false,
+				"m_VolumeIndex": 42
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 21,
+				"m_PitchIndex": 45,
+				"m_Solo": false,
+				"m_VolumeIndex": 44
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 21,
+				"m_PitchIndex": 47,
+				"m_Solo": false,
+				"m_VolumeIndex": 46
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 21,
+				"m_PitchIndex": 49,
+				"m_Solo": false,
+				"m_VolumeIndex": 48
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 1,
+				"m_PitchIndex": 51,
+				"m_Solo": false,
+				"m_VolumeIndex": 50
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 25,
+				"m_PitchIndex": 53,
+				"m_Solo": false,
+				"m_VolumeIndex": 52
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 26,
+				"m_PitchIndex": 55,
+				"m_Solo": false,
+				"m_VolumeIndex": 54
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 25,
+				"m_PitchIndex": 57,
+				"m_Solo": false,
+				"m_VolumeIndex": 56
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 25,
+				"m_PitchIndex": 59,
+				"m_Solo": false,
+				"m_VolumeIndex": 58
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 29,
+				"m_PitchIndex": 61,
+				"m_Solo": false,
+				"m_VolumeIndex": 60
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 29,
+				"m_PitchIndex": 63,
+				"m_Solo": false,
+				"m_VolumeIndex": 62
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 25,
+				"m_PitchIndex": 65,
+				"m_Solo": false,
+				"m_VolumeIndex": 64
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 32,
+				"m_PitchIndex": 67,
+				"m_Solo": false,
+				"m_VolumeIndex": 66
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 32,
+				"m_PitchIndex": 69,
+				"m_Solo": false,
+				"m_VolumeIndex": 68
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 32,
+				"m_PitchIndex": 71,
+				"m_Solo": false,
+				"m_VolumeIndex": 70
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 32,
+				"m_PitchIndex": 73,
+				"m_Solo": false,
+				"m_VolumeIndex": 72
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 25,
+				"m_PitchIndex": 75,
+				"m_Solo": false,
+				"m_VolumeIndex": 74
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 25,
+				"m_PitchIndex": 77,
+				"m_Solo": false,
+				"m_VolumeIndex": 76
+			},
+			{
+				"m_BypassEffects": false,
+				"m_Mute": false,
+				"m_ParentConstantIndex": 0,
+				"m_PitchIndex": 79,
+				"m_Solo": false,
+				"m_VolumeIndex": 78
+			}
+		],
+		"m_NumSideChainBuffers": 3,
+		"m_PluginEffectNameBuffer": "AA==",
+		"m_SnapshotGUIDs": [
+			{
+				"m_Data_0_": 3034297406,
+				"m_Data_1_": 1134622456,
+				"m_Data_2_": 1674895764,
+				"m_Data_3_": 1869488253
+			},
+			{
+				"m_Data_0_": 523470193,
+				"m_Data_1_": 1236864422,
+				"m_Data_2_": 4012958635,
+				"m_Data_3_": 191745286
+			},
+			{
+				"m_Data_0_": 75978811,
+				"m_Data_1_": 1079167598,
+				"m_Data_2_": 1518118309,
+				"m_Data_3_": 2983962231
+			}
+		],
+		"m_SnapshotNameBuffer": "RGVmYXVsdABEZWFkAFNld2VyAAA=",
+		"m_Snapshots": [
+			{
+				"m_NameHash": 753088835,
+				"m_TransitionIndices": [
+					89,
+					204
+				],
+				"m_TransitionTypes": [
+					1,
+					1
+				],
+				"m_Values": [
+					0,
+					1,
+					0,
+					1,
+					-0.08374828,
+					1,
+					0,
+					1,
+					-10.345207,
+					1,
+					0,
+					1,
+					-10.345207,
+					1,
+					0,
+					1,
+					0,
+					1,
+					-0.10231405,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					-2.573833,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					-0.10231405,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					-2.573833,
+					1,
+					0,
+					1,
+					0,
+					1,
+					-2.5738313,
+					1,
+					0.10800299,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					-5.7224774,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					22000,
+					1,
+					-8.2,
+					3.48,
+					0.01,
+					1.106,
+					0,
+					10,
+					1,
+					22000,
+					1,
+					-4.6,
+					10,
+					35,
+					1.9,
+					22000,
+					1.53,
+					0.53,
+					0,
+					-3,
+					10,
+					50,
+					4,
+					5000,
+					1,
+					1,
+					457,
+					1.76,
+					5000,
+					0.803,
+					5,
+					600,
+					5.1,
+					0.309,
+					-1002,
+					-3182,
+					0,
+					1,
+					0.55,
+					-2914,
+					0.014,
+					444,
+					0.04,
+					43.4,
+					68.7,
+					3509,
+					0,
+					516,
+					-4.2,
+					11.3,
+					59,
+					8,
+					0.6,
+					1024,
+					4,
+					0,
+					-4.6,
+					10,
+					35,
+					1.9,
+					22000,
+					1.53,
+					0.53,
+					-3,
+					10,
+					50,
+					4,
+					5000,
+					1,
+					1,
+					457,
+					1.76,
+					5000,
+					0.803,
+					5,
+					600,
+					5.1,
+					0.309,
+					-1002,
+					-3182,
+					0,
+					1,
+					0.55,
+					-2914,
+					0.014,
+					444,
+					0.04,
+					43.4,
+					68.7,
+					3509,
+					0,
+					516,
+					-4.2,
+					11.3,
+					59,
+					8,
+					-26.3,
+					4.01,
+					0,
+					0.3,
+					0,
+					10,
+					1,
+					0,
+					0,
+					22000,
+					1,
+					1600,
+					0.37,
+					1.48,
+					-88,
+					-1000,
+					-454,
+					0.4,
+					0.8,
+					-1600,
+					0,
+					53,
+					0.03,
+					100,
+					100,
+					5000,
+					0,
+					250,
+					22000,
+					1,
+					-31.5,
+					2,
+					0.003,
+					0.3,
+					0,
+					10,
+					1
+				]
+			},
+			{
+				"m_NameHash": 1293411866,
+				"m_TransitionIndices": [
+					185,
+					89,
+					204
+				],
+				"m_TransitionTypes": [
+					1,
+					1,
+					1
+				],
+				"m_Values": [
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					-0.002441872,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					5000,
+					1,
+					-27,
+					3.48,
+					0.01,
+					1.106,
+					0,
+					10,
+					1,
+					78,
+					1,
+					0,
+					50,
+					50,
+					0,
+					8000,
+					1,
+					1,
+					-80,
+					0,
+					50,
+					50,
+					0,
+					5000,
+					0.1,
+					20,
+					5000,
+					1,
+					5000,
+					0.1,
+					20,
+					5000,
+					1,
+					0.5,
+					0,
+					-10000,
+					0,
+					1,
+					0.5,
+					-10000,
+					0.02,
+					0,
+					0.04,
+					100,
+					100,
+					5000,
+					0,
+					250,
+					0,
+					50,
+					50,
+					0,
+					1,
+					1024,
+					4,
+					0,
+					0,
+					50,
+					50,
+					0,
+					8000,
+					1,
+					1,
+					0,
+					50,
+					50,
+					0,
+					5000,
+					0.1,
+					20,
+					5000,
+					1,
+					5000,
+					0.1,
+					20,
+					5000,
+					1,
+					0.5,
+					0,
+					-10000,
+					0,
+					1,
+					0.5,
+					-10000,
+					0.02,
+					0,
+					0.04,
+					100,
+					100,
+					5000,
+					0,
+					250,
+					0,
+					50,
+					50,
+					0,
+					-10,
+					2,
+					0.1,
+					0.3,
+					0,
+					10,
+					1,
+					0,
+					-80,
+					485,
+					1,
+					8000,
+					1,
+					1,
+					0,
+					-10000,
+					0,
+					1,
+					0.5,
+					-10000,
+					0.02,
+					0,
+					0.04,
+					100,
+					100,
+					5000,
+					0,
+					250,
+					258,
+					1,
+					-10,
+					2,
+					0.1,
+					0.3,
+					0,
+					10,
+					1
+				]
+			},
+			{
+				"m_NameHash": 1112978448,
+				"m_TransitionIndices": [
+					89,
+					204
+				],
+				"m_TransitionTypes": [
+					1,
+					1
+				],
+				"m_Values": [
+					0,
+					1,
+					0,
+					1,
+					-16.660433,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					-4.9356413,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					-0.037667945,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					0,
+					1,
+					5000,
+					1,
+					-27,
+					3.48,
+					0.01,
+					1.106,
+					0,
+					10,
+					1,
+					22000,
+					1,
+					0,
+					50,
+					50,
+					0,
+					8000,
+					1,
+					1,
+					-80,
+					0,
+					50,
+					50,
+					0,
+					5000,
+					0.1,
+					20,
+					5000,
+					1,
+					5000,
+					0.1,
+					20,
+					5000,
+					1,
+					0.5,
+					0,
+					-10000,
+					0,
+					1,
+					0.5,
+					-10000,
+					0.02,
+					0,
+					0.04,
+					100,
+					100,
+					5000,
+					0,
+					250,
+					0,
+					50,
+					50,
+					0,
+					1,
+					1024,
+					4,
+					0,
+					0,
+					50,
+					50,
+					0,
+					8000,
+					1,
+					1,
+					0,
+					50,
+					50,
+					0,
+					5000,
+					0.1,
+					20,
+					5000,
+					1,
+					5000,
+					0.1,
+					20,
+					5000,
+					1,
+					0.5,
+					0,
+					-10000,
+					0,
+					1,
+					0.5,
+					-10000,
+					0.02,
+					0,
+					0.04,
+					100,
+					100,
+					5000,
+					0,
+					250,
+					0,
+					50,
+					50,
+					0,
+					-10,
+					2,
+					0.1,
+					0.3,
+					0,
+					10,
+					1,
+					0,
+					-80,
+					22000,
+					1,
+					8000,
+					1,
+					1,
+					0,
+					-10000,
+					0,
+					1,
+					0.5,
+					-10000,
+					0.02,
+					0,
+					0.04,
+					100,
+					100,
+					5000,
+					0,
+					250,
+					22000,
+					1,
+					-10,
+					2,
+					0.1,
+					0.3,
+					0,
+					10,
+					1
+				]
+			}
+		]
+	},
+	"m_Name": "MMSoundManagerAudioMixer",
+	"m_OutputGroup": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_PrefabAsset": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_PrefabInstance": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Snapshots": [
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11079 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11080 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11078 }
+	],
+	"m_StartSnapshot": { "m_Collection": "sharedassets0.assets", "m_PathID": 11079 },
+	"m_SuspendThreshold": -80,
+	"m_TargetSnapshot": { "m_Collection": "sharedassets0.assets", "m_PathID": 11079 },
+	"m_UpdateMode": 0
+}

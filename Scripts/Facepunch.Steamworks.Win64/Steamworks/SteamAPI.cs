@@ -1,0 +1,48 @@
+using System;
+using System.Runtime.InteropServices;
+using Steamworks.Data;
+
+namespace Steamworks;
+
+internal static class SteamAPI
+{
+	internal static class Native
+	{
+		[DllImport("steam_api64", CallingConvention = CallingConvention.Cdecl)]
+		public static extern SteamAPIInitResult SteamInternal_SteamAPI_Init(IntPtr pszInternalCheckInterfaceVersions, IntPtr pOutErrMsg);
+
+		[DllImport("steam_api64", CallingConvention = CallingConvention.Cdecl)]
+		public static extern void SteamAPI_Shutdown();
+
+		[DllImport("steam_api64", CallingConvention = CallingConvention.Cdecl)]
+		public static extern HSteamPipe SteamAPI_GetHSteamPipe();
+
+		[DllImport("steam_api64", CallingConvention = CallingConvention.Cdecl)]
+		[return: MarshalAs(UnmanagedType.I1)]
+		public static extern bool SteamAPI_RestartAppIfNecessary(uint unOwnAppID);
+	}
+
+	internal static SteamAPIInitResult Init(string pszInternalCheckInterfaceVersions, out string pOutErrMsg)
+	{
+		using Utf8StringToNative utf8StringToNative = new Utf8StringToNative(pszInternalCheckInterfaceVersions);
+		using Helpers.Memory memory = Helpers.Memory.Take();
+		SteamAPIInitResult result = Native.SteamInternal_SteamAPI_Init(utf8StringToNative.Pointer, memory.Ptr);
+		pOutErrMsg = Helpers.MemoryToString(memory.Ptr);
+		return result;
+	}
+
+	internal static void Shutdown()
+	{
+		Native.SteamAPI_Shutdown();
+	}
+
+	internal static HSteamPipe GetHSteamPipe()
+	{
+		return Native.SteamAPI_GetHSteamPipe();
+	}
+
+	internal static bool RestartAppIfNecessary(uint unOwnAppID)
+	{
+		return Native.SteamAPI_RestartAppIfNecessary(unOwnAppID);
+	}
+}

@@ -1,0 +1,1112 @@
+{
+	"m_CorrespondingSourceObject": { "m_Collection": "sharedassets3.assets", "m_PathID": 0 },
+	"m_CullingFlags": 0,
+	"m_HideFlags": 0,
+	"m_Infos": {
+		"m_Buffers": [
+			{
+				"m_Capacity": 32,
+				"m_Layout": [
+					{
+						"m_Name": "velocity",
+						"m_Offset": {
+							"m_Bucket": 0,
+							"m_Element": 0,
+							"m_Structure": 4
+						},
+						"m_Type": 3
+					},
+					{
+						"m_Name": "lifetime",
+						"m_Offset": {
+							"m_Bucket": 128,
+							"m_Element": 0,
+							"m_Structure": 1
+						},
+						"m_Type": 1
+					},
+					{
+						"m_Name": "size",
+						"m_Offset": {
+							"m_Bucket": 160,
+							"m_Element": 0,
+							"m_Structure": 1
+						},
+						"m_Type": 1
+					},
+					{
+						"m_Name": "position",
+						"m_Offset": {
+							"m_Bucket": 192,
+							"m_Element": 0,
+							"m_Structure": 8
+						},
+						"m_Type": 3
+					},
+					{
+						"m_Name": "alive",
+						"m_Offset": {
+							"m_Bucket": 192,
+							"m_Element": 3,
+							"m_Structure": 8
+						},
+						"m_Type": 18
+					},
+					{
+						"m_Name": "age",
+						"m_Offset": {
+							"m_Bucket": 192,
+							"m_Element": 4,
+							"m_Structure": 8
+						},
+						"m_Type": 1
+					},
+					{
+						"m_Name": "texIndex",
+						"m_Offset": {
+							"m_Bucket": 448,
+							"m_Element": 0,
+							"m_Structure": 1
+						},
+						"m_Type": 1
+					}
+				],
+				"m_Size": 480,
+				"m_Stride": 4,
+				"m_Type": 1
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 1,
+				"m_Stride": 8,
+				"m_Type": 16
+			},
+			{
+				"m_Capacity": 1,
+				"m_Layout": [],
+				"m_Size": 0,
+				"m_Stride": 4,
+				"m_Type": 1
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 32,
+				"m_Stride": 4,
+				"m_Type": 16
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 1,
+				"m_Stride": 4,
+				"m_Type": 16
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 1,
+				"m_Stride": 4,
+				"m_Type": 16
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 1,
+				"m_Stride": 4,
+				"m_Type": 16
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 1,
+				"m_Stride": 4,
+				"m_Type": 16
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 33,
+				"m_Stride": 8,
+				"m_Type": 16
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 33,
+				"m_Stride": 4,
+				"m_Type": 0
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 1,
+				"m_Stride": 16,
+				"m_Type": 0
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 40,
+				"m_Stride": 4,
+				"m_Type": 1
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 1,
+				"m_Stride": 4,
+				"m_Type": 0
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 1,
+				"m_Stride": 4,
+				"m_Type": 0
+			},
+			{
+				"m_Capacity": 0,
+				"m_Layout": [],
+				"m_Size": 1,
+				"m_Stride": 4,
+				"m_Type": 0
+			}
+		],
+		"m_CompilationVersion": 7,
+		"m_CPUBuffers": [
+			{
+				"m_Capacity": 1,
+				"m_InitialData": {
+					"m_Data": [
+						1065353216
+					]
+				},
+				"m_Layout": [
+					{
+						"m_Name": "spawnCount",
+						"m_Offset": {
+							"m_Bucket": 0,
+							"m_Element": 0,
+							"m_Structure": 1
+						},
+						"m_Type": 1
+					}
+				],
+				"m_Stride": 1
+			},
+			{
+				"m_Capacity": 1,
+				"m_InitialData": {
+					"m_Data": [
+						1065353216
+					]
+				},
+				"m_Layout": [
+					{
+						"m_Name": "spawnCount",
+						"m_Offset": {
+							"m_Bucket": 0,
+							"m_Element": 0,
+							"m_Structure": 1
+						},
+						"m_Type": 1
+					}
+				],
+				"m_Stride": 1
+			}
+		],
+		"m_CullingFlags": 3,
+		"m_Events": [
+			{
+				"m_InitSystems": [],
+				"m_Name": "OnPlay",
+				"m_PlaySystems": [
+					0
+				],
+				"m_StopSystems": []
+			},
+			{
+				"m_InitSystems": [],
+				"m_Name": "OnStop",
+				"m_PlaySystems": [],
+				"m_StopSystems": [
+					0
+				]
+			}
+		],
+		"m_ExposedExpressions": [
+			{
+				"m_Index": 9,
+				"m_NameId": "color"
+			},
+			{
+				"m_Index": 2,
+				"m_NameId": "max_lifetime"
+			}
+		],
+		"m_Expressions": {
+			"m_ConstantBakeCurveCount": 0,
+			"m_ConstantBakeGradientCount": 1,
+			"m_DynamicBakeCurveCount": 0,
+			"m_DynamicBakeGradientCount": 0,
+			"m_Expressions": [
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 3,
+					"m_Op": 1,
+					"m_ValueIndex": 0
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 1,
+					"m_Op": 1,
+					"m_ValueIndex": 3
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 1,
+					"m_Op": 1,
+					"m_ValueIndex": 4
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 15,
+					"m_Op": 1,
+					"m_ValueIndex": 5
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 18,
+					"m_Op": 1,
+					"m_ValueIndex": 6
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 1,
+					"m_Op": 1,
+					"m_ValueIndex": 7
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 3,
+					"m_Op": 1,
+					"m_ValueIndex": 8
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 3,
+					"m_Op": 1,
+					"m_ValueIndex": 11
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 3,
+					"m_Op": 1,
+					"m_ValueIndex": 14
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 4,
+					"m_Op": 1,
+					"m_ValueIndex": 17
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 3,
+					"m_Op": 1,
+					"m_ValueIndex": 21
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 1,
+					"m_Op": 1,
+					"m_ValueIndex": 24
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 1,
+					"m_Op": 1,
+					"m_ValueIndex": 25
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 13,
+					"m_Op": 1,
+					"m_ValueIndex": 26
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 13,
+					"m_Op": 1,
+					"m_ValueIndex": 42
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 1,
+					"m_Op": 1,
+					"m_ValueIndex": 58
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": -1,
+					"m_Op": 6,
+					"m_ValueIndex": 59
+				},
+				{
+					"m_Data_0_": 3,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 0,
+					"m_Op": 75,
+					"m_ValueIndex": 60
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 2,
+					"m_Op": 1,
+					"m_ValueIndex": 63
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 2,
+					"m_Op": 1,
+					"m_ValueIndex": 65
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": 7,
+					"m_Op": 1,
+					"m_ValueIndex": 67
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": -1,
+					"m_Op": 9,
+					"m_ValueIndex": 68
+				},
+				{
+					"m_Data_0_": -1,
+					"m_Data_1_": -1,
+					"m_Data_2_": -1,
+					"m_Data_3_": -1,
+					"m_Op": 10,
+					"m_ValueIndex": 84
+				}
+			],
+			"m_MaxCommonExpressionsIndex": 23,
+			"m_NeededMainCameraBuffers": 0,
+			"m_NeedsLocalToWorld": true,
+			"m_NeedsMainCamera": false,
+			"m_NeedsWorldToLocal": true
+		},
+		"m_InitialEventName": "OnPlay",
+		"m_InstancingCapacity": 64,
+		"m_InstancingDisabledReason": 0,
+		"m_InstancingMode": 0,
+		"m_PreWarmDeltaTime": 0.05,
+		"m_PreWarmStepCount": 0,
+		"m_PropertySheet": {
+			"m_AnimationCurve": {
+				"m_Array": []
+			},
+			"m_Bool": {
+				"m_Array": [
+					{
+						"m_ExpressionIndex": 4,
+						"m_Value": true
+					}
+				]
+			},
+			"m_Float": {
+				"m_Array": [
+					{
+						"m_ExpressionIndex": 1,
+						"m_Value": 0.5
+					},
+					{
+						"m_ExpressionIndex": 2,
+						"m_Value": 4
+					},
+					{
+						"m_ExpressionIndex": 5,
+						"m_Value": 8
+					},
+					{
+						"m_ExpressionIndex": 11,
+						"m_Value": 1
+					},
+					{
+						"m_ExpressionIndex": 12,
+						"m_Value": 6.2831855
+					},
+					{
+						"m_ExpressionIndex": 15,
+						"m_Value": 16
+					}
+				]
+			},
+			"m_Gradient": {
+				"m_Array": [
+					{
+						"m_ExpressionIndex": 3,
+						"m_Value": {
+							"m_Atime0": 0,
+							"m_Atime1": 19468,
+							"m_Atime2": 52621,
+							"m_Atime3": 65535,
+							"m_Atime4": 0,
+							"m_Atime5": 0,
+							"m_Atime6": 0,
+							"m_Atime7": 0,
+							"m_ColorSpace": -1,
+							"m_Ctime0": 0,
+							"m_Ctime1": 26021,
+							"m_Ctime2": 0,
+							"m_Ctime3": 0,
+							"m_Ctime4": 0,
+							"m_Ctime5": 0,
+							"m_Ctime6": 0,
+							"m_Ctime7": 0,
+							"m_Key0": {
+								"m_A": 0,
+								"m_B": 0,
+								"m_G": 0,
+								"m_R": 8
+							},
+							"m_Key1": {
+								"m_A": 1,
+								"m_B": 0,
+								"m_G": 0,
+								"m_R": 0.11320752
+							},
+							"m_Key2": {
+								"m_A": 1,
+								"m_B": 0,
+								"m_G": 0,
+								"m_R": 0
+							},
+							"m_Key3": {
+								"m_A": 0,
+								"m_B": 0,
+								"m_G": 0,
+								"m_R": 0
+							},
+							"m_Key4": {
+								"m_A": 0,
+								"m_B": 0,
+								"m_G": 0,
+								"m_R": 0
+							},
+							"m_Key5": {
+								"m_A": 0,
+								"m_B": 0,
+								"m_G": 0,
+								"m_R": 0
+							},
+							"m_Key6": {
+								"m_A": 0,
+								"m_B": 0,
+								"m_G": 0,
+								"m_R": 0
+							},
+							"m_Key7": {
+								"m_A": 0,
+								"m_B": 0,
+								"m_G": 0,
+								"m_R": 0
+							},
+							"m_Mode": 0,
+							"m_NumAlphaKeys": 4,
+							"m_NumColorKeys": 2
+						}
+					}
+				]
+			},
+			"m_Int": {
+				"m_Array": []
+			},
+			"m_Matrix4x4f": {
+				"m_Array": [
+					{
+						"m_ExpressionIndex": 13,
+						"m_Value": {
+							"m_E00": 0.5760739,
+							"m_E01": 0,
+							"m_E02": 0,
+							"m_E03": 0,
+							"m_E10": 0,
+							"m_E11": 0.5760739,
+							"m_E12": 0,
+							"m_E13": 0.5,
+							"m_E20": 0,
+							"m_E21": 0,
+							"m_E22": 0.5760739,
+							"m_E23": 0.0055562854,
+							"m_E30": 0,
+							"m_E31": 0,
+							"m_E32": 0,
+							"m_E33": 1
+						}
+					},
+					{
+						"m_ExpressionIndex": 14,
+						"m_Value": {
+							"m_E00": 1,
+							"m_E01": -0,
+							"m_E02": 0,
+							"m_E03": 0,
+							"m_E10": -0,
+							"m_E11": 1,
+							"m_E12": -0,
+							"m_E13": 0,
+							"m_E20": 0,
+							"m_E21": -0,
+							"m_E22": 1,
+							"m_E23": 0,
+							"m_E30": -0,
+							"m_E31": -0.5,
+							"m_E32": -0.0055562854,
+							"m_E33": 1
+						}
+					}
+				]
+			},
+			"m_NamedObject": {
+				"m_Array": [
+					{
+						"m_ExpressionIndex": 20,
+						"m_Value": { "m_Collection": "sharedassets3.assets", "m_PathID": 3009 }
+					}
+				]
+			},
+			"m_Uint": {
+				"m_Array": []
+			},
+			"m_Vector2f": {
+				"m_Array": [
+					{
+						"m_ExpressionIndex": 18,
+						"m_Value": {
+							"m_X": 8,
+							"m_Y": 8
+						}
+					},
+					{
+						"m_ExpressionIndex": 19,
+						"m_Value": {
+							"m_X": 0.125,
+							"m_Y": 0.125
+						}
+					}
+				]
+			},
+			"m_Vector3f": {
+				"m_Array": [
+					{
+						"m_ExpressionIndex": 0,
+						"m_Value": {
+							"m_X": 0,
+							"m_Y": -0.2,
+							"m_Z": 0
+						}
+					},
+					{
+						"m_ExpressionIndex": 6,
+						"m_Value": {
+							"m_X": -0.008661509,
+							"m_Y": 1.4014218,
+							"m_Z": -0.018482447
+						}
+					},
+					{
+						"m_ExpressionIndex": 7,
+						"m_Value": {
+							"m_X": 3.0049977,
+							"m_Y": 3.9600692,
+							"m_Z": 3.0607448
+						}
+					},
+					{
+						"m_ExpressionIndex": 8,
+						"m_Value": {
+							"m_X": 0.5,
+							"m_Y": 0.5,
+							"m_Z": 0.5
+						}
+					},
+					{
+						"m_ExpressionIndex": 10,
+						"m_Value": {
+							"m_X": 0,
+							"m_Y": 0.7,
+							"m_Z": 0
+						}
+					}
+				]
+			},
+			"m_Vector4f": {
+				"m_Array": [
+					{
+						"m_ExpressionIndex": 9,
+						"m_Value": {
+							"m_W": 0,
+							"m_X": 0,
+							"m_Y": 0,
+							"m_Z": 0
+						}
+					}
+				]
+			}
+		},
+		"m_RendererSettings": {
+			"m_LightProbeUsage": 0,
+			"m_MotionVectorGenerationMode": 0,
+			"m_ReceiveShadows": false,
+			"m_ReflectionProbeUsage": 0,
+			"m_ShadowCastingMode": 0
+		},
+		"m_RuntimeVersion": 35,
+		"m_TemporaryBuffers": [],
+		"m_UpdateMode": 0
+	},
+	"m_Name": "Smoke",
+	"m_PrefabAsset": { "m_Collection": "sharedassets3.assets", "m_PathID": 0 },
+	"m_PrefabInstance": { "m_Collection": "sharedassets3.assets", "m_PathID": 0 },
+	"m_RendererSettings": {
+		"m_LightProbeUsage": 0,
+		"m_MotionVectorGenerationMode": 0,
+		"m_ReceiveShadows": false,
+		"m_ReflectionProbeUsage": 0,
+		"m_ShadowCastingMode": 0
+	},
+	"m_Systems": [
+		{
+			"m_Buffers": [
+				{
+					"m_Index": 1,
+					"m_NameId": "spawner_output"
+				}
+			],
+			"m_Capacity": 0,
+			"m_Flags": 0,
+			"m_InstanceSplitDescs": [],
+			"m_Layer": 4294967295,
+			"m_Name": "Spawn system",
+			"m_Tasks": [
+				{
+					"m_Buffers": [],
+					"m_InstanceSplitIndex": 0,
+					"m_Params": [],
+					"m_Processor": { "m_Collection": "sharedassets3.assets", "m_PathID": 0 },
+					"m_TemporaryBuffers": [],
+					"m_Type": 268435456,
+					"m_Values": [
+						{
+							"m_Index": 4,
+							"m_NameId": "_vfx_enabled"
+						},
+						{
+							"m_Index": 5,
+							"m_NameId": "Rate"
+						}
+					]
+				}
+			],
+			"m_Type": 0,
+			"m_Values": []
+		},
+		{
+			"m_Buffers": [
+				{
+					"m_Index": 0,
+					"m_NameId": "attributeBuffer"
+				},
+				{
+					"m_Index": 1,
+					"m_NameId": "instancingContextData"
+				},
+				{
+					"m_Index": 2,
+					"m_NameId": "sourceAttributeBuffer"
+				},
+				{
+					"m_Index": 3,
+					"m_NameId": "deadList"
+				},
+				{
+					"m_Index": 4,
+					"m_NameId": "deadListCount"
+				},
+				{
+					"m_Index": 5,
+					"m_NameId": "deadListCountCopy"
+				},
+				{
+					"m_Index": 6,
+					"m_NameId": "instancingIndirect"
+				},
+				{
+					"m_Index": 7,
+					"m_NameId": "instancingActiveIndirect"
+				},
+				{
+					"m_Index": 1,
+					"m_NameId": "spawner_input"
+				},
+				{
+					"m_Index": 8,
+					"m_NameId": "indirectBuffer0PerCamera"
+				},
+				{
+					"m_Index": 10,
+					"m_NameId": "batchedInitParams"
+				},
+				{
+					"m_Index": 11,
+					"m_NameId": "graphValuesBuffer"
+				},
+				{
+					"m_Index": 12,
+					"m_NameId": "instancingPrefixSum"
+				},
+				{
+					"m_Index": 13,
+					"m_NameId": "eventCountPrefixSum"
+				},
+				{
+					"m_Index": 14,
+					"m_NameId": "spawnCountPrefixSum"
+				}
+			],
+			"m_Capacity": 32,
+			"m_Flags": 771,
+			"m_InstanceSplitDescs": [
+				{
+					"m_Values": []
+				}
+			],
+			"m_Layer": 0,
+			"m_Name": "System",
+			"m_Tasks": [
+				{
+					"m_Buffers": [
+						{
+							"m_Index": 0,
+							"m_NameId": "attributeBuffer"
+						},
+						{
+							"m_Index": 11,
+							"m_NameId": "graphValuesBuffer"
+						},
+						{
+							"m_Index": 3,
+							"m_NameId": "deadListIn"
+						},
+						{
+							"m_Index": 4,
+							"m_NameId": "deadListCount"
+						},
+						{
+							"m_Index": 5,
+							"m_NameId": "deadListCountCopy"
+						},
+						{
+							"m_Index": 2,
+							"m_NameId": "sourceAttributeBuffer"
+						},
+						{
+							"m_Index": 1,
+							"m_NameId": "instancingContextData"
+						},
+						{
+							"m_Index": 10,
+							"m_NameId": "batchedInitParams"
+						},
+						{
+							"m_Index": 13,
+							"m_NameId": "eventCountPrefixSum"
+						},
+						{
+							"m_Index": 14,
+							"m_NameId": "spawnCountPrefixSum"
+						},
+						{
+							"m_Index": 12,
+							"m_NameId": "instancingPrefixSum"
+						},
+						{
+							"m_Index": 6,
+							"m_NameId": "instancingIndirect"
+						},
+						{
+							"m_Index": 7,
+							"m_NameId": "instancingActiveIndirect"
+						}
+					],
+					"m_InstanceSplitIndex": 0,
+					"m_Params": [
+						{
+							"m_Index": 6,
+							"m_NameId": "bounds_center"
+						},
+						{
+							"m_Index": 7,
+							"m_NameId": "bounds_size"
+						},
+						{
+							"m_Index": 8,
+							"m_NameId": "boundsPadding"
+						}
+					],
+					"m_Processor": { "m_Collection": "sharedassets3.assets", "m_PathID": 674 },
+					"m_TemporaryBuffers": [],
+					"m_Type": 536870912,
+					"m_Values": []
+				},
+				{
+					"m_Buffers": [
+						{
+							"m_Index": 0,
+							"m_NameId": "attributeBuffer"
+						},
+						{
+							"m_Index": 11,
+							"m_NameId": "graphValuesBuffer"
+						},
+						{
+							"m_Index": 3,
+							"m_NameId": "deadListOut"
+						},
+						{
+							"m_Index": 4,
+							"m_NameId": "deadListCount"
+						},
+						{
+							"m_Index": 1,
+							"m_NameId": "instancingContextData"
+						},
+						{
+							"m_Index": 6,
+							"m_NameId": "instancingIndirect"
+						},
+						{
+							"m_Index": 7,
+							"m_NameId": "instancingActiveIndirect"
+						}
+					],
+					"m_InstanceSplitIndex": 0,
+					"m_Params": [],
+					"m_Processor": { "m_Collection": "sharedassets3.assets", "m_PathID": 678 },
+					"m_TemporaryBuffers": [],
+					"m_Type": 805306368,
+					"m_Values": []
+				},
+				{
+					"m_Buffers": [
+						{
+							"m_Index": 0,
+							"m_NameId": "attributeBuffer"
+						},
+						{
+							"m_Index": 11,
+							"m_NameId": "graphValuesBuffer"
+						},
+						{
+							"m_Index": 1,
+							"m_NameId": "instancingContextData"
+						},
+						{
+							"m_Index": 6,
+							"m_NameId": "instancingIndirect"
+						},
+						{
+							"m_Index": 7,
+							"m_NameId": "instancingActiveIndirect"
+						},
+						{
+							"m_Index": 8,
+							"m_NameId": "outputBuffer0"
+						}
+					],
+					"m_InstanceSplitIndex": 0,
+					"m_Params": [],
+					"m_Processor": { "m_Collection": "sharedassets3.assets", "m_PathID": 681 },
+					"m_TemporaryBuffers": [],
+					"m_Type": 805306370,
+					"m_Values": [
+						{
+							"m_Index": 20,
+							"m_NameId": "mainTexture"
+						}
+					]
+				},
+				{
+					"m_Buffers": [
+						{
+							"m_Index": 8,
+							"m_NameId": "srcBuffer"
+						},
+						{
+							"m_Index": -1,
+							"m_NameId": "scratchBuffer"
+						},
+						{
+							"m_Index": 9,
+							"m_NameId": "dstBuffer"
+						}
+					],
+					"m_InstanceSplitIndex": 0,
+					"m_Params": [
+						{
+							"m_Index": 0,
+							"m_NameId": "globalSort"
+						},
+						{
+							"m_Index": 1,
+							"m_NameId": "isPerCameraSort"
+						}
+					],
+					"m_Processor": { "m_Collection": "sharedassets3.assets", "m_PathID": 0 },
+					"m_TemporaryBuffers": [],
+					"m_Type": 805306372,
+					"m_Values": []
+				},
+				{
+					"m_Buffers": [
+						{
+							"m_Index": 0,
+							"m_NameId": "attributeBuffer"
+						},
+						{
+							"m_Index": 11,
+							"m_NameId": "graphValuesBuffer"
+						},
+						{
+							"m_Index": 1,
+							"m_NameId": "instancingContextData"
+						},
+						{
+							"m_Index": 9,
+							"m_NameId": "indirectBuffer"
+						},
+						{
+							"m_Index": 4,
+							"m_NameId": "deadListCount"
+						}
+					],
+					"m_InstanceSplitIndex": 0,
+					"m_Params": [
+						{
+							"m_Index": 0,
+							"m_NameId": "sortPriority"
+						},
+						{
+							"m_Index": 1,
+							"m_NameId": "indirectDraw"
+						},
+						{
+							"m_Index": 1,
+							"m_NameId": "indirectPerCamera"
+						},
+						{
+							"m_Index": 8,
+							"m_NameId": "indirectIndex"
+						}
+					],
+					"m_Processor": { "m_Collection": "sharedassets3.assets", "m_PathID": 89 },
+					"m_TemporaryBuffers": [],
+					"m_Type": 1073741826,
+					"m_Values": [
+						{
+							"m_Index": 20,
+							"m_NameId": "mainTexture"
+						}
+					]
+				}
+			],
+			"m_Type": 1,
+			"m_Values": [
+				{
+					"m_Index": 6,
+					"m_NameId": "bounds_center"
+				},
+				{
+					"m_Index": 7,
+					"m_NameId": "bounds_size"
+				},
+				{
+					"m_Index": 8,
+					"m_NameId": "boundsPadding"
+				},
+				{
+					"m_Index": 4,
+					"m_NameId": "graphValuesOffset"
+				},
+				{
+					"m_Index": 21,
+					"m_NameId": "localToWorld_a"
+				},
+				{
+					"m_Index": 22,
+					"m_NameId": "worldToLocal_a"
+				},
+				{
+					"m_Index": 17,
+					"m_NameId": "Color_a"
+				},
+				{
+					"m_Index": 2,
+					"m_NameId": "uniform_a"
+				},
+				{
+					"m_Index": 16,
+					"m_NameId": "deltaTime_a"
+				}
+			]
+		}
+	]
+}

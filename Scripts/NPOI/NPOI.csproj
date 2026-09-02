@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>NPOI</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <NoStandardLib>True</NoStandardLib>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>False</AppendRuntimeIdentifierToOutputPath>
+    <DisableImplicitConfigurationDefines>True</DisableImplicitConfigurationDefines>
+    <DisableImplicitFrameworkDefines>True</DisableImplicitFrameworkDefines>
+    <DisableImplicitFrameworkReferences>True</DisableImplicitFrameworkReferences>
+    <DisableTransitiveProjectReferences>True</DisableTransitiveProjectReferences>
+    <DisableImplicitNamespaceImports>True</DisableImplicitNamespaceImports>
+    <EnsureRuntimePackageDependencies>False</EnsureRuntimePackageDependencies>
+    <AddAdditionalExplicitAssemblyReferences>False</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="functionMetadata.txt" />
+    <None Remove="font_metrics.properties" />
+    <EmbeddedResource Include="functionMetadata.txt" LogicalName="functionMetadata.txt" />
+    <EmbeddedResource Include="font_metrics.properties" LogicalName="font_metrics.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../mscorlib/mscorlib.csproj" />
+    <ProjectReference Include="../System.Xml/System.Xml.csproj" />
+    <ProjectReference Include="../System.Drawing/System.Drawing.csproj" />
+    <ProjectReference Include="../System/System.csproj" />
+    <ProjectReference Include="../BouncyCastle.Crypto/BouncyCastle.Crypto.csproj" />
+    <ProjectReference Include="../System.Core/System.Core.csproj" />
+    <ProjectReference Include="../System.Configuration/System.Configuration.csproj" />
+    <ProjectReference Include="../ICSharpCode.SharpZipLib/ICSharpCode.SharpZipLib.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,40 @@
+{
+	"m_AudioMixer": { "m_Collection": "sharedassets0.assets", "m_PathID": 11037 },
+	"m_BypassEffects": false,
+	"m_Children": [],
+	"m_CorrespondingSourceObject": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Effects": [
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 70 }
+	],
+	"m_GroupID": {
+		"m_Data_0_": 3544514746,
+		"m_Data_1_": 1169688062,
+		"m_Data_2_": 2790313630,
+		"m_Data_3_": 3001857493
+	},
+	"m_HideFlags": 0,
+	"m_Mute": false,
+	"m_Name": "EnemyAttack",
+	"m_Pitch": {
+		"m_Data_0_": 1942826316,
+		"m_Data_1_": 1219670228,
+		"m_Data_2_": 2045554307,
+		"m_Data_3_": 2152267987
+	},
+	"m_PrefabAsset": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_PrefabInstance": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Send": {
+		"m_Data_0_": 0,
+		"m_Data_1_": 0,
+		"m_Data_2_": 0,
+		"m_Data_3_": 0
+	},
+	"m_Solo": false,
+	"m_UserColorIndex": 0,
+	"m_Volume": {
+		"m_Data_0_": 1389910027,
+		"m_Data_1_": 1188020630,
+		"m_Data_2_": 1123689624,
+		"m_Data_3_": 2998425285
+	}
+}

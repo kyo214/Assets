@@ -1,0 +1,20 @@
+{
+	"Name": "CarCutsene_Escape",
+	"FileExtension": "playable",
+	"Root": { "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1491 },
+	"Children": [
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1468 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1495 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1496 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1465 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1472 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1482 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1498 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1471 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1479 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1466 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1467 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1494 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 1483 }
+	]
+}

@@ -1,0 +1,13 @@
+using System;
+using System.Xml.Serialization;
+
+namespace NPOI.OpenXmlFormats.Dml;
+
+[Serializable]
+[XmlType(Namespace = "http://schemas.openxmlformats.org/drawingml/2006/main")]
+public enum ST_PathShadeType
+{
+	shape = 0,
+	circle = 1,
+	rect = 2
+}

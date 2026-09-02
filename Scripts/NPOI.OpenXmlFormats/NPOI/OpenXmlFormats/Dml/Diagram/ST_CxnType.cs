@@ -1,0 +1,14 @@
+using System;
+using System.Xml.Serialization;
+
+namespace NPOI.OpenXmlFormats.Dml.Diagram;
+
+[Serializable]
+[XmlType(Namespace = "http://schemas.openxmlformats.org/drawingml/2006/diagram")]
+public enum ST_CxnType
+{
+	parOf = 0,
+	presOf = 1,
+	presParOf = 2,
+	unknownRelationship = 3
+}

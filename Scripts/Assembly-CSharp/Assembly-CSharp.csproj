@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <NoStandardLib>True</NoStandardLib>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>False</AppendRuntimeIdentifierToOutputPath>
+    <DisableImplicitConfigurationDefines>True</DisableImplicitConfigurationDefines>
+    <DisableImplicitFrameworkDefines>True</DisableImplicitFrameworkDefines>
+    <DisableImplicitFrameworkReferences>True</DisableImplicitFrameworkReferences>
+    <DisableTransitiveProjectReferences>True</DisableTransitiveProjectReferences>
+    <DisableImplicitNamespaceImports>True</DisableImplicitNamespaceImports>
+    <EnsureRuntimePackageDependencies>False</EnsureRuntimePackageDependencies>
+    <AddAdditionalExplicitAssemblyReferences>False</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="../UnityEngine.AnimationModule/UnityEngine.AnimationModule.csproj" />
+    <ProjectReference Include="../Unity.2D.Animation.Runtime/Unity.2D.Animation.Runtime.csproj" />
+    <ProjectReference Include="../Unity.InputSystem/Unity.InputSystem.csproj" />
+    <ProjectReference Include="../mscorlib/mscorlib.csproj" />
+    <ProjectReference Include="../BGDatabase/BGDatabase.csproj" />
+    <ProjectReference Include="../UnityEngine.CoreModule/UnityEngine.CoreModule.csproj" />
+    <ProjectReference Include="../Fusion.Common/Fusion.Common.csproj" />
+    <ProjectReference Include="../Fusion.Runtime/Fusion.Runtime.csproj" />
+    <ProjectReference Include="../UnityEngine.UI/UnityEngine.UI.csproj" />
+    <ProjectReference Include="../Fusion.Sockets/Fusion.Sockets.csproj" />
+    <ProjectReference Include="../UnityEngine.PhysicsModule/UnityEngine.PhysicsModule.csproj" />
+    <ProjectReference Include="../UnityEngine.IMGUIModule/UnityEngine.IMGUIModule.csproj" />
+    <ProjectReference Include="../Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.csproj" />
+    <ProjectReference Include="../Unity.RenderPipelines.Core.Runtime/Unity.RenderPipelines.Core.Runtime.csproj" />
+    <ProjectReference Include="../Unity.RenderPipelines.Universal.Runtime/Unity.RenderPipelines.Universal.Runtime.csproj" />
+    <ProjectReference Include="../DOTween/DOTween.csproj" />
+    <ProjectReference Include="../DoozyRuntime/DoozyRuntime.csproj" />
+    <ProjectReference Include="../UniTask/UniTask.csproj" />
+    <ProjectReference Include="../Unity.TextMeshPro/Unity.TextMeshPro.csproj" />
+    <ProjectReference Include="../DissonanceVoip/DissonanceVoip.csproj" />
+    <ProjectReference Include="../Facepunch.Steamworks.Win64/Facepunch.Steamworks.Win64.csproj" />
+    <ProjectReference Include="../AstarPathfindingProject/AstarPathfindingProject.csproj" />
+    <ProjectReference Include="../UnityEngine.VideoModule/UnityEngine.VideoModule.csproj" />
+    <ProjectReference Include="../UnityEngine.AudioModule/UnityEngine.AudioModule.csproj" />
+    <ProjectReference Include="../UnityEngine.DirectorModule/UnityEngine.DirectorModule.csproj" />
+    <ProjectReference Include="../Unity.Timeline/Unity.Timeline.csproj" />
+    <ProjectReference Include="../UnityEngine.TextRenderingModule/UnityEngine.TextRenderingModule.csproj" />
+    <ProjectReference Include="../System/System.csproj" />
+    <ProjectReference Include="../NPOI/NPOI.csproj" />
+    <ProjectReference Include="../UnityEngine.ParticleSystemModule/UnityEngine.ParticleSystemModule.csproj" />
+    <ProjectReference Include="../UnityEngine.UIModule/UnityEngine.UIModule.csproj" />
+    <ProjectReference Include="../StylizedWaterForURP/StylizedWaterForURP.csproj" />
+    <ProjectReference Include="../UnityEngine.VFXModule/UnityEngine.VFXModule.csproj" />
+    <ProjectReference Include="../Cinemachine/Cinemachine.csproj" />
+    <ProjectReference Include="../MoreMountains.Feedbacks/MoreMountains.Feedbacks.csproj" />
+    <ProjectReference Include="../System.Core/System.Core.csproj" />
+    <ProjectReference Include="../System.Net.Http/System.Net.Http.csproj" />
+    <ProjectReference Include="../UnityEngine.ClothModule/UnityEngine.ClothModule.csproj" />
+    <ProjectReference Include="../UnityEngine.Physics2DModule/UnityEngine.Physics2DModule.csproj" />
+    <ProjectReference Include="../UnityEngine.TerrainModule/UnityEngine.TerrainModule.csproj" />
+    <ProjectReference Include="../UnityEngine.WindModule/UnityEngine.WindModule.csproj" />
+    <ProjectReference Include="../Fusion.Realtime/Fusion.Realtime.csproj" />
+    <ProjectReference Include="../Sirenix.OdinInspector.Attributes/Sirenix.OdinInspector.Attributes.csproj" />
+    <ProjectReference Include="../Sirenix.Serialization/Sirenix.Serialization.csproj" />
+    <ProjectReference Include="../UnityEngine.InputLegacyModule/UnityEngine.InputLegacyModule.csproj" />
+    <ProjectReference Include="../UnityEngine/UnityEngine.csproj" />
+    <ProjectReference Include="../Sirenix.Utilities/Sirenix.Utilities.csproj" />
+    <ProjectReference Include="../DOTweenPro/DOTweenPro.csproj" />
+    <ProjectReference Include="../MoreMountains.Tools/MoreMountains.Tools.csproj" />
+    <ProjectReference Include="../UnityEngine.JSONSerializeModule/UnityEngine.JSONSerializeModule.csproj" />
+    <ProjectReference Include="../UnityEngine.ImageConversionModule/UnityEngine.ImageConversionModule.csproj" />
+    <ProjectReference Include="../UnityEngine.TerrainPhysicsModule/UnityEngine.TerrainPhysicsModule.csproj" />
+    <ProjectReference Include="../UnityEngine.VRModule/UnityEngine.VRModule.csproj" />
+    <ProjectReference Include="../NPOI.OOXML/NPOI.OOXML.csproj" />
+    <ProjectReference Include="../Unity.Services.Core/Unity.Services.Core.csproj" />
+    <ProjectReference Include="../Unity.Services.Core.Environments/Unity.Services.Core.Environments.csproj" />
+    <ProjectReference Include="../MeshExtension/MeshExtension.csproj" />
+  </ItemGroup>
+</Project>

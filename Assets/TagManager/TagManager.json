@@ -1,0 +1,89 @@
+{
+	"m_Layers": [
+		"Default",
+		"TransparentFX",
+		"Ignore Raycast",
+		"ItemSprite",
+		"Water",
+		"UI",
+		"PostProcessing",
+		"Character",
+		"WallFloor",
+		"PropsBulletCollision",
+		"PropsBulletNoCollision",
+		"Enemy",
+		"ObjectFOV",
+		"EnemyCollider",
+		"DestroyItDebris",
+		"AreaItem",
+		"MeleePlayerCollider",
+		"Item3DObject",
+		"ItemCollision",
+		"ColliderStopper",
+		"CharacterCollider",
+		"CharacterDeadCollider",
+		"Door",
+		"Floor",
+		"Plant",
+		"WallWindow",
+		"CamCollider",
+		"MiniMap",
+		"Map2",
+		"OclusionLightCollider",
+		"ItemInteractable",
+		"EnemyThrough"
+	],
+	"m_SortingLayers": [
+		{
+			"m_Locked": false,
+			"m_Name": "CapturedMapImage",
+			"m_UniqueID": 2303033041
+		},
+		{
+			"m_Locked": false,
+			"m_Name": "Ground",
+			"m_UniqueID": 4005445009
+		},
+		{
+			"m_Locked": false,
+			"m_Name": "Default",
+			"m_UniqueID": 0
+		},
+		{
+			"m_Locked": false,
+			"m_Name": "Character",
+			"m_UniqueID": 1796934673
+		},
+		{
+			"m_Locked": false,
+			"m_Name": "Debug",
+			"m_UniqueID": 2953263647
+		},
+		{
+			"m_Locked": false,
+			"m_Name": "Minimap",
+			"m_UniqueID": 1793849729
+		}
+	],
+	"m_Tags": [
+		"EnemyCollider",
+		"ClingPoint",
+		"Props",
+		"Fog",
+		"PlayerCollider",
+		"ItemInteract",
+		"ItemPickable",
+		"Enemy",
+		"LightGroup",
+		"EnemyLightCollider",
+		"PuzzleObject",
+		"GlassWindow",
+		"BreakableObject",
+		"OclusionLightCollider",
+		"RoomText",
+		"Dummy",
+		"EnemyFOV",
+		"IconMark",
+		"LightRoom"
+	]
+}

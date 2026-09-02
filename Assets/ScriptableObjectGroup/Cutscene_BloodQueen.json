@@ -1,0 +1,10 @@
+{
+	"Name": "Cutscene_BloodQueen",
+	"FileExtension": "playable",
+	"Root": { "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 697 },
+	"Children": [
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 698 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 689 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 700 }
+	]
+}

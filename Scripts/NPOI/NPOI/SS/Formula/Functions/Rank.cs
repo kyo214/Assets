@@ -1,0 +1,95 @@
+using NPOI.SS.Formula.Eval;
+
+namespace NPOI.SS.Formula.Functions;
+
+public class Rank : Var2or3ArgFunction
+{
+	public override ValueEval Evaluate(int srcRowIndex, int srcColumnIndex, ValueEval arg0, ValueEval arg1)
+	{
+		double num;
+		AreaEval aeRange;
+		try
+		{
+			num = OperandResolver.CoerceValueToDouble(OperandResolver.GetSingleValue(arg0, srcRowIndex, srcColumnIndex));
+			if (double.IsNaN(num) || double.IsInfinity(num))
+			{
+				throw new EvaluationException(ErrorEval.NUM_ERROR);
+			}
+			aeRange = ConvertRangeArg(arg1);
+		}
+		catch (EvaluationException ex)
+		{
+			return ex.GetErrorEval();
+		}
+		return eval(srcRowIndex, srcColumnIndex, num, aeRange, descending_order: true);
+	}
+
+	public override ValueEval Evaluate(int srcRowIndex, int srcColumnIndex, ValueEval arg0, ValueEval arg1, ValueEval arg2)
+	{
+		bool flag = false;
+		double num;
+		AreaEval aeRange;
+		try
+		{
+			num = OperandResolver.CoerceValueToDouble(OperandResolver.GetSingleValue(arg0, srcRowIndex, srcColumnIndex));
+			if (double.IsNaN(num) || double.IsInfinity(num))
+			{
+				throw new EvaluationException(ErrorEval.NUM_ERROR);
+			}
+			aeRange = ConvertRangeArg(arg1);
+			flag = OperandResolver.CoerceValueToInt(OperandResolver.GetSingleValue(arg2, srcRowIndex, srcColumnIndex)) switch
+			{
+				0 => true, 
+				1 => false, 
+				_ => throw new EvaluationException(ErrorEval.NUM_ERROR), 
+			};
+		}
+		catch (EvaluationException ex)
+		{
+			return ex.GetErrorEval();
+		}
+		return eval(srcRowIndex, srcColumnIndex, num, aeRange, flag);
+	}
+
+	private static ValueEval eval(int srcRowIndex, int srcColumnIndex, double arg0, AreaEval aeRange, bool descending_order)
+	{
+		int num = 1;
+		int height = aeRange.Height;
+		int width = aeRange.Width;
+		for (int i = 0; i < height; i++)
+		{
+			for (int j = 0; j < width; j++)
+			{
+				double value = GetValue(aeRange, i, j);
+				if (!double.IsNaN(value) && ((descending_order && value > arg0) || (!descending_order && value < arg0)))
+				{
+					num++;
+				}
+			}
+		}
+		return new NumberEval(num);
+	}
+
+	private static double GetValue(AreaEval aeRange, int relRowIndex, int relColIndex)
+	{
+		ValueEval relativeValue = aeRange.GetRelativeValue(relRowIndex, relColIndex);
+		if (relativeValue is NumberEval)
+		{
+			return ((NumberEval)relativeValue).NumberValue;
+		}
+		return double.NaN;
+	}
+
+	private static AreaEval ConvertRangeArg(ValueEval eval)
+	{
+		if (eval is AreaEval)
+		{
+			return (AreaEval)eval;
+		}
+		if (eval is RefEval)
+		{
+			return ((RefEval)eval).Offset(0, 0, 0, 0);
+		}
+		throw new EvaluationException(ErrorEval.VALUE_INVALID);
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"Name": "StartMission",
+	"FileExtension": "playable",
+	"Root": { "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2511 },
+	"Children": [
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2431 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2523 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2558 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2551 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2531 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2484 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2460 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2550 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2453 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2463 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2516 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2476 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2545 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2435 },
+		{ "m_Collection": "Generated Scriptable Object Groups", "m_PathID": 2526 }
+	]
+}

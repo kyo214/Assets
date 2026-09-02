@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <NoStandardLib>True</NoStandardLib>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>False</AppendRuntimeIdentifierToOutputPath>
+    <DisableImplicitConfigurationDefines>True</DisableImplicitConfigurationDefines>
+    <DisableImplicitFrameworkDefines>True</DisableImplicitFrameworkDefines>
+    <DisableImplicitFrameworkReferences>True</DisableImplicitFrameworkReferences>
+    <DisableTransitiveProjectReferences>True</DisableTransitiveProjectReferences>
+    <DisableImplicitNamespaceImports>True</DisableImplicitNamespaceImports>
+    <EnsureRuntimePackageDependencies>False</EnsureRuntimePackageDependencies>
+    <AddAdditionalExplicitAssemblyReferences>False</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="../UnityEngine.AudioModule/UnityEngine.AudioModule.csproj" />
+    <ProjectReference Include="../UnityEngine.CoreModule/UnityEngine.CoreModule.csproj" />
+    <ProjectReference Include="../UnityEngine.PhysicsModule/UnityEngine.PhysicsModule.csproj" />
+    <ProjectReference Include="../mscorlib/mscorlib.csproj" />
+    <ProjectReference Include="../Unity.InputSystem/Unity.InputSystem.csproj" />
+    <ProjectReference Include="../UnityEngine.Physics2DModule/UnityEngine.Physics2DModule.csproj" />
+    <ProjectReference Include="../UnityEngine.AnimationModule/UnityEngine.AnimationModule.csproj" />
+    <ProjectReference Include="../UnityEngine.AIModule/UnityEngine.AIModule.csproj" />
+    <ProjectReference Include="../UnityEngine.ParticleSystemModule/UnityEngine.ParticleSystemModule.csproj" />
+    <ProjectReference Include="../UnityEngine.TerrainModule/UnityEngine.TerrainModule.csproj" />
+    <ProjectReference Include="../UnityEngine.VehiclesModule/UnityEngine.VehiclesModule.csproj" />
+    <ProjectReference Include="../UnityEngine.WindModule/UnityEngine.WindModule.csproj" />
+    <ProjectReference Include="../UnityEngine.UI/UnityEngine.UI.csproj" />
+    <ProjectReference Include="../System/System.csproj" />
+    <ProjectReference Include="../UnityEngine.UnityWebRequestModule/UnityEngine.UnityWebRequestModule.csproj" />
+    <ProjectReference Include="../Unity.TextMeshPro/Unity.TextMeshPro.csproj" />
+    <ProjectReference Include="../UnityEngine.TextRenderingModule/UnityEngine.TextRenderingModule.csproj" />
+    <ProjectReference Include="../DOTween/DOTween.csproj" />
+    <ProjectReference Include="../UnityEngine.UIModule/UnityEngine.UIModule.csproj" />
+    <ProjectReference Include="../DOTweenPro/DOTweenPro.csproj" />
+    <ProjectReference Include="../System.Core/System.Core.csproj" />
+    <ProjectReference Include="../Unity.ResourceManager/Unity.ResourceManager.csproj" />
+    <ProjectReference Include="../Unity.Addressables/Unity.Addressables.csproj" />
+    <ProjectReference Include="../UnityEngine.VideoModule/UnityEngine.VideoModule.csproj" />
+    <ProjectReference Include="../UnityEngine.ImageConversionModule/UnityEngine.ImageConversionModule.csproj" />
+    <ProjectReference Include="../UnityEngine.UnityWebRequestAudioModule/UnityEngine.UnityWebRequestAudioModule.csproj" />
+    <ProjectReference Include="../UnityEngine.InputLegacyModule/UnityEngine.InputLegacyModule.csproj" />
+    <ProjectReference Include="../UnityEngine.IMGUIModule/UnityEngine.IMGUIModule.csproj" />
+    <ProjectReference Include="../DoozyRuntime/DoozyRuntime.csproj" />
+    <ProjectReference Include="../UnityEngine.TerrainPhysicsModule/UnityEngine.TerrainPhysicsModule.csproj" />
+  </ItemGroup>
+</Project>

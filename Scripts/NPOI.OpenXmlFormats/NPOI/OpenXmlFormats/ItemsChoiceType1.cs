@@ -1,0 +1,62 @@
+using System;
+using System.Xml.Serialization;
+
+namespace NPOI.OpenXmlFormats;
+
+[Serializable]
+[XmlType(Namespace = "http://schemas.openxmlformats.org/officeDocument/2006/bibliography", IncludeInSchema = false)]
+public enum ItemsChoiceType1
+{
+	AbbreviatedCaseNumber = 0,
+	AlbumTitle = 1,
+	Author = 2,
+	BookTitle = 3,
+	BroadcastTitle = 4,
+	Broadcaster = 5,
+	CaseNumber = 6,
+	ChapterNumber = 7,
+	City = 8,
+	Comments = 9,
+	ConferenceName = 10,
+	CountryRegion = 11,
+	Court = 12,
+	Day = 13,
+	DayAccessed = 14,
+	Department = 15,
+	Distributor = 16,
+	Edition = 17,
+	Guid = 18,
+	Institution = 19,
+	InternetSiteTitle = 20,
+	Issue = 21,
+	JournalName = 22,
+	LCID = 23,
+	Medium = 24,
+	Month = 25,
+	MonthAccessed = 26,
+	NumberVolumes = 27,
+	Pages = 28,
+	PatentNumber = 29,
+	PeriodicalTitle = 30,
+	ProductionCompany = 31,
+	PublicationTitle = 32,
+	Publisher = 33,
+	RecordingNumber = 34,
+	RefOrder = 35,
+	Reporter = 36,
+	ShortTitle = 37,
+	SourceType = 38,
+	StandardNumber = 39,
+	StateProvince = 40,
+	Station = 41,
+	Tag = 42,
+	Theater = 43,
+	ThesisType = 44,
+	Title = 45,
+	Type = 46,
+	URL = 47,
+	Version = 48,
+	Volume = 49,
+	Year = 50,
+	YearAccessed = 51
+}

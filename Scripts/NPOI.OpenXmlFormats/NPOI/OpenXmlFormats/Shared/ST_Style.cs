@@ -1,0 +1,14 @@
+using System;
+using System.Xml.Serialization;
+
+namespace NPOI.OpenXmlFormats.Shared;
+
+[Serializable]
+[XmlType(Namespace = "http://schemas.openxmlformats.org/officeDocument/2006/math")]
+public enum ST_Style
+{
+	p = 0,
+	b = 1,
+	i = 2,
+	bi = 3
+}

@@ -1,0 +1,40 @@
+{
+	"m_AudioMixer": { "m_Collection": "sharedassets0.assets", "m_PathID": 11037 },
+	"m_BypassEffects": false,
+	"m_Children": [],
+	"m_CorrespondingSourceObject": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Effects": [
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 66 }
+	],
+	"m_GroupID": {
+		"m_Data_0_": 2622946268,
+		"m_Data_1_": 1288364715,
+		"m_Data_2_": 1997055105,
+		"m_Data_3_": 33583212
+	},
+	"m_HideFlags": 0,
+	"m_Mute": false,
+	"m_Name": "PlayerAttack",
+	"m_Pitch": {
+		"m_Data_0_": 911624490,
+		"m_Data_1_": 1145610084,
+		"m_Data_2_": 3909386155,
+		"m_Data_3_": 359184942
+	},
+	"m_PrefabAsset": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_PrefabInstance": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Send": {
+		"m_Data_0_": 0,
+		"m_Data_1_": 0,
+		"m_Data_2_": 0,
+		"m_Data_3_": 0
+	},
+	"m_Solo": false,
+	"m_UserColorIndex": 0,
+	"m_Volume": {
+		"m_Data_0_": 3765226348,
+		"m_Data_1_": 1091056896,
+		"m_Data_2_": 3586602634,
+		"m_Data_3_": 2790862425
+	}
+}

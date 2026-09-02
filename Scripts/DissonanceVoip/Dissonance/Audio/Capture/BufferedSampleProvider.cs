@@ -1,0 +1,45 @@
+using System;
+using Dissonance.Datastructures;
+using NAudio.Wave;
+
+namespace Dissonance.Audio.Capture;
+
+internal class BufferedSampleProvider : ISampleProvider
+{
+	private readonly TransferBuffer<float> _samples;
+
+	public int Count => _samples.EstimatedUnreadCount;
+
+	public int Capacity => _samples.Capacity;
+
+	public WaveFormat WaveFormat { get; }
+
+	public BufferedSampleProvider(WaveFormat format, int bufferSize)
+	{
+		WaveFormat = format;
+		_samples = new TransferBuffer<float>(bufferSize);
+	}
+
+	public int Read(float[] buffer, int offset, int count)
+	{
+		if (!_samples.Read(new ArraySegment<float>(buffer, offset, count)))
+		{
+			return 0;
+		}
+		return count;
+	}
+
+	public int Write(ArraySegment<float> data)
+	{
+		if (data.Array == null)
+		{
+			throw new ArgumentNullException("data");
+		}
+		return _samples.WriteSome(data);
+	}
+
+	public void Reset()
+	{
+		_samples.Clear();
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"m_AudioMixer": { "m_Collection": "sharedassets0.assets", "m_PathID": 11037 },
+	"m_BypassEffects": false,
+	"m_Children": [
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11043 }
+	],
+	"m_CorrespondingSourceObject": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Effects": [
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 57 }
+	],
+	"m_GroupID": {
+		"m_Data_0_": 1887106735,
+		"m_Data_1_": 1123071507,
+		"m_Data_2_": 3253717693,
+		"m_Data_3_": 3797386138
+	},
+	"m_HideFlags": 0,
+	"m_Mute": false,
+	"m_Name": "Ambient",
+	"m_Pitch": {
+		"m_Data_0_": 1259770918,
+		"m_Data_1_": 1225969453,
+		"m_Data_2_": 775736459,
+		"m_Data_3_": 3286380429
+	},
+	"m_PrefabAsset": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_PrefabInstance": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Send": {
+		"m_Data_0_": 0,
+		"m_Data_1_": 0,
+		"m_Data_2_": 0,
+		"m_Data_3_": 0
+	},
+	"m_Solo": false,
+	"m_UserColorIndex": 0,
+	"m_Volume": {
+		"m_Data_0_": 608294787,
+		"m_Data_1_": 1161744481,
+		"m_Data_2_": 3967533959,
+		"m_Data_3_": 1237488985
+	}
+}

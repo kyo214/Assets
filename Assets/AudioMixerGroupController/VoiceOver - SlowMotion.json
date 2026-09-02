@@ -1,0 +1,45 @@
+{
+	"m_AudioMixer": { "m_Collection": "sharedassets0.assets", "m_PathID": 11037 },
+	"m_BypassEffects": false,
+	"m_Children": [
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11064 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11055 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 11045 }
+	],
+	"m_CorrespondingSourceObject": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Effects": [
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 37 },
+		{ "m_Collection": "sharedassets0.assets", "m_PathID": 38 }
+	],
+	"m_GroupID": {
+		"m_Data_0_": 1211787959,
+		"m_Data_1_": 1202479207,
+		"m_Data_2_": 879986087,
+		"m_Data_3_": 2922718287
+	},
+	"m_HideFlags": 0,
+	"m_Mute": false,
+	"m_Name": "VoiceOver - SlowMotion",
+	"m_Pitch": {
+		"m_Data_0_": 4132864617,
+		"m_Data_1_": 1157036179,
+		"m_Data_2_": 3802729860,
+		"m_Data_3_": 3962346967
+	},
+	"m_PrefabAsset": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_PrefabInstance": { "m_Collection": "sharedassets0.assets", "m_PathID": 0 },
+	"m_Send": {
+		"m_Data_0_": 0,
+		"m_Data_1_": 0,
+		"m_Data_2_": 0,
+		"m_Data_3_": 0
+	},
+	"m_Solo": false,
+	"m_UserColorIndex": 0,
+	"m_Volume": {
+		"m_Data_0_": 3453264630,
+		"m_Data_1_": 1225464782,
+		"m_Data_2_": 559208358,
+		"m_Data_3_": 2568344471
+	}
+}

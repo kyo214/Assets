@@ -1,0 +1,27 @@
+{
+	"m_AssetBundleName": "2315e7e00e6dfa35e71543095e27f5c6.bundle",
+	"m_Container": {
+		"Assets/Plugins/DestroyIt/Demos (safe to delete)/Materials/burstflame-flame.mat": {
+			"m_Asset": { "m_Collection": "cab-d883ed42561a03211385c70456425d7d", "m_PathID": 1304767828664137734 },
+			"m_PreloadIndex": 0,
+			"m_PreloadSize": 3
+		}
+	},
+	"m_CorrespondingSourceObject": { "m_Collection": "cab-d883ed42561a03211385c70456425d7d", "m_PathID": 0 },
+	"m_Dependencies": [],
+	"m_ExplicitDataLayout": 1,
+	"m_HideFlags": 0,
+	"m_IsStreamedSceneAssetBundle": false,
+	"m_MainAsset": {
+		"m_Asset": { "m_Collection": "cab-d883ed42561a03211385c70456425d7d", "m_PathID": 0 },
+		"m_PreloadIndex": 0,
+		"m_PreloadSize": 0
+	},
+	"m_Name": "2315e7e00e6dfa35e71543095e27f5c6.bundle",
+	"m_PathFlags": 0,
+	"m_PrefabAsset": { "m_Collection": "cab-d883ed42561a03211385c70456425d7d", "m_PathID": 0 },
+	"m_PrefabInstance": { "m_Collection": "cab-d883ed42561a03211385c70456425d7d", "m_PathID": 0 },
+	"m_PreloadTable": [],
+	"m_RuntimeCompatibility": 1,
+	"m_SceneHashes": {}
+}

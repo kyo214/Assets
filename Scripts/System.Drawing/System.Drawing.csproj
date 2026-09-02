@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>System.Drawing</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <NoStandardLib>True</NoStandardLib>
+    <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+    <AppendRuntimeIdentifierToOutputPath>False</AppendRuntimeIdentifierToOutputPath>
+    <DisableImplicitConfigurationDefines>True</DisableImplicitConfigurationDefines>
+    <DisableImplicitFrameworkDefines>True</DisableImplicitFrameworkDefines>
+    <DisableImplicitFrameworkReferences>True</DisableImplicitFrameworkReferences>
+    <DisableTransitiveProjectReferences>True</DisableTransitiveProjectReferences>
+    <DisableImplicitNamespaceImports>True</DisableImplicitNamespaceImports>
+    <EnsureRuntimePackageDependencies>False</EnsureRuntimePackageDependencies>
+    <AddAdditionalExplicitAssemblyReferences>False</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Mono.ico" />
+    <None Remove="Information.ico" />
+    <None Remove="Error.ico" />
+    <None Remove="Warning.ico" />
+    <None Remove="Question.ico" />
+    <None Remove="Shield.ico" />
+    <EmbeddedResource Include="Mono.ico" LogicalName="Mono.ico" />
+    <EmbeddedResource Include="Information.ico" LogicalName="Information.ico" />
+    <EmbeddedResource Include="Error.ico" LogicalName="Error.ico" />
+    <EmbeddedResource Include="Warning.ico" LogicalName="Warning.ico" />
+    <EmbeddedResource Include="Question.ico" LogicalName="Question.ico" />
+    <EmbeddedResource Include="Shield.ico" LogicalName="Shield.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../mscorlib/mscorlib.csproj" />
+    <ProjectReference Include="../System/System.csproj" />
+  </ItemGroup>
+</Project>
